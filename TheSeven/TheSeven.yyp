@@ -1,12 +1,21 @@
 {
   "resources": [
     {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},"order":2,},
-    {"id":{"name":"objWall","path":"objects/objWall/objWall.yy",},"order":1,},
+    {"id":{"name":"objWall","path":"objects/objWall/objWall.yy",},"order":5,},
+    {"id":{"name":"objDoorTop","path":"objects/objDoorTop/objDoorTop.yy",},"order":3,},
     {"id":{"name":"sprEnemy","path":"sprites/sprEnemy/sprEnemy.yy",},"order":3,},
+    {"id":{"name":"sprRoom","path":"sprites/sprRoom/sprRoom.yy",},"order":4,},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":2,},
+    {"id":{"name":"objGenRooms","path":"objects/objGenRooms/objGenRooms.yy",},"order":6,},
     {"id":{"name":"sprWall","path":"sprites/sprWall/sprWall.yy",},"order":1,},
+    {"id":{"name":"sprDoorSide","path":"sprites/sprDoorSide/sprDoorSide.yy",},"order":5,},
+    {"id":{"name":"sprDoorTop","path":"sprites/sprDoorTop/sprDoorTop.yy",},"order":6,},
+    {"id":{"name":"objRoom","path":"objects/objRoom/objRoom.yy",},"order":4,},
+    {"id":{"name":"objDoorBot","path":"objects/objDoorBot/objDoorBot.yy",},"order":0,},
     {"id":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"order":3,},
     {"id":{"name":"objGrid","path":"objects/objGrid/objGrid.yy",},"order":0,},
+    {"id":{"name":"objDoorRight","path":"objects/objDoorRight/objDoorRight.yy",},"order":2,},
+    {"id":{"name":"objDoorLeft","path":"objects/objDoorLeft/objDoorLeft.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -42,6 +51,7 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/RoomObjects.yy","order":9,"resourceVersion":"1.0","name":"RoomObjects","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

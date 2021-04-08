@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprWall",
-    "path": "sprites/sprWall/sprWall.yy",
+    "name": "sprRoom",
+    "path": "sprites/sprRoom/sprRoom.yy",
   },
   "solid": true,
   "visible": true,
@@ -28,7 +28,7 @@
     "path": "folders/Objects/RoomObjects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objWall",
+  "name": "objRoom",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "sprWall",
-    "path": "sprites/sprWall/sprWall.yy",
+    "name": "sprDoorSide",
+    "path": "sprites/sprDoorSide/sprDoorSide.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -24,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "RoomObjects",
-    "path": "folders/Objects/RoomObjects.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objWall",
+  "name": "objDoorLeft",
   "tags": [],
   "resourceType": "GMObject",
 }
