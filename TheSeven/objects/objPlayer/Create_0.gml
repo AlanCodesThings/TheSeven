@@ -4,3 +4,4 @@
 //Set walking speed and collision detection
 speedWalk = 2;
 checkWalk = speedWalk + 2;
+hitpoints = 50;

@@ -1,3 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-damage = 5;
+if (xdifference <= 50 && ydifference <= 50){
+	objPlayer.hitpoints	-= damage;
+}

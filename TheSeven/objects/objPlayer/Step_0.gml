@@ -30,3 +30,4 @@ if(vInput == -1 && place_free(x, y - checkWalk)){
 
 }
 
+show_debug_message(hitpoints);
