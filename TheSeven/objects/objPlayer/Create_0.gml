@@ -2,5 +2,5 @@
 // You can write your code in this editor
 
 //Set walking speed and collision detection
-speedWalk = 4;
+speedWalk = 2;
 checkWalk = speedWalk + 2;

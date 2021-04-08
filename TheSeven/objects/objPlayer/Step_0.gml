@@ -3,34 +3,30 @@
 
 
 //Check for keyboard input and set direction
-keyLeft = keyboard_check(vk_left) || keyboard_check(ord("A"));
-keyRight = keyboard_check(vk_right) || keyboard_check(ord("D"));
-keyUp = keyboard_check(vk_up)|| keyboard_check(ord("W"));
-keyDown = keyboard_check(vk_down)|| keyboard_check(ord("S"));
+
+hInput = keyboard_check(ord("D")) - keyboard_check(ord("A"));
+vInput = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
 //Move the player based on keyboard input and check for collisions
-if(keyLeft == 1 && place_free(x - checkWalk, y)){
-	x -= speedWalk	
+
+if(hInput != 0 || vInput != 0){
+dir = point_direction(0,0,hInput,vInput);
+moveX = lengthdir_x(speedWalk,dir);
+moveY = lengthdir_y(speedWalk,dir);
+
+if(hInput == 1 && place_free(x + checkWalk, y)){
+	x += moveX * speedWalk;
 }
-if(keyRight == 1 && place_free(x + checkWalk, y)){
-	x += speedWalk	
+if(hInput == -1 && place_free(x - checkWalk, y)){
+	x += moveX * speedWalk;
 }
-if(keyDown == 1 && place_free(x, y + checkWalk)){
-	y += speedWalk	
+if(vInput == 1 && place_free(x, y + checkWalk)){
+	y += moveY * speedWalk;
 }
-if(keyUp == 1 && place_free(x, y - checkWalk)){
-	y -= speedWalk	
+if(vInput == -1 && place_free(x, y - checkWalk)){
+	y += moveY * speedWalk;
 }
 
-/*
 
-inputDirection = point_direction(0,0,keyRight- keyLeft, keyDown - keyUp);
-inputMagnitude = (keyRight - keyLeft != 0)  || (keyDown - keyUp != 0);
+}
 
-//Movement
-hSpeed = lengthdir_x(inputMagnitude * speedWalk, inputDirection);
-vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
-
-x += hSpeed;
-y += vSpeed;
-*/
