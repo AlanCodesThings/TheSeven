@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprPlayer",
-    "path": "sprites/sprPlayer/sprPlayer.yy",
+    "name": "sPlayerdownidol",
+    "path": "sprites/sPlayerdownidol/sPlayerdownidol.yy",
   },
   "solid": true,
   "visible": true,
