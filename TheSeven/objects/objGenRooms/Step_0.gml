@@ -62,3 +62,4 @@ if (gen == true)
 	}
 	until (rooms_generated >= 10)
 }
+mp_grid_add_instances(movementGrid,objRoom,1);
