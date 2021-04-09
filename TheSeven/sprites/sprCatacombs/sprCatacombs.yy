@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 79,
+  "bbox_left": 26,
+  "bbox_right": 1007,
   "bbox_top": 0,
-  "bbox_bottom": 79,
+  "bbox_bottom": 543,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 80,
-  "height": 80,
+  "width": 1024,
+  "height": 640,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"138195b4-fbbc-4b96-84d8-9bf9a69811cd","path":"sprites/sprDoorSide/sprDoorSide.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"138195b4-fbbc-4b96-84d8-9bf9a69811cd","path":"sprites/sprDoorSide/sprDoorSide.yy",},"LayerId":{"name":"b29179ac-2480-41cc-acf9-5dad3e3ce071","path":"sprites/sprDoorSide/sprDoorSide.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprDoorSide","path":"sprites/sprDoorSide/sprDoorSide.yy",},"resourceVersion":"1.0","name":"138195b4-fbbc-4b96-84d8-9bf9a69811cd","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"4baa414b-1386-4bb1-a512-d68c10c30e45","path":"sprites/sprCatacombs/sprCatacombs.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"4baa414b-1386-4bb1-a512-d68c10c30e45","path":"sprites/sprCatacombs/sprCatacombs.yy",},"LayerId":{"name":"6506ee3a-f405-4ffa-8c4f-300bfb6f3548","path":"sprites/sprCatacombs/sprCatacombs.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprCatacombs","path":"sprites/sprCatacombs/sprCatacombs.yy",},"resourceVersion":"1.0","name":"4baa414b-1386-4bb1-a512-d68c10c30e45","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sprDoorSide","path":"sprites/sprDoorSide/sprDoorSide.yy",},
+    "spriteId": {"name":"sprCatacombs","path":"sprites/sprCatacombs/sprCatacombs.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2125dd0c-7972-4a90-a6f0-3563c9a0bbe1","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"138195b4-fbbc-4b96-84d8-9bf9a69811cd","path":"sprites/sprDoorSide/sprDoorSide.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"21f83ce2-6b61-4f39-92ff-96c671a9b465","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4baa414b-1386-4bb1-a512-d68c10c30e45","path":"sprites/sprCatacombs/sprCatacombs.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sprDoorSide","path":"sprites/sprDoorSide/sprDoorSide.yy",},
+    "parent": {"name":"sprCatacombs","path":"sprites/sprCatacombs/sprCatacombs.yy",},
     "resourceVersion": "1.3",
-    "name": "sprDoorSide",
+    "name": "sprCatacombs",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b29179ac-2480-41cc-acf9-5dad3e3ce071","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6506ee3a-f405-4ffa-8c4f-300bfb6f3548","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sprDoorSide",
+  "name": "sprCatacombs",
   "tags": [],
   "resourceType": "GMSprite",
 }
