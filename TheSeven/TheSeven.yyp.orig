@@ -1,0 +1,116 @@
+{
+  "resources": [
+<<<<<<< HEAD
+    {"id":{"name":"objWeaponspawner","path":"objects/objWeaponspawner/objWeaponspawner.yy",},"order":1,},
+    {"id":{"name":"sWeaponsworddown","path":"sprites/sWeaponsworddown/sWeaponsworddown.yy",},"order":0,},
+    {"id":{"name":"sprCatacombs","path":"sprites/sprCatacombs/sprCatacombs.yy",},"order":8,},
+    {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},"order":2,},
+=======
+    {"id":{"name":"sprCatacombs","path":"sprites/sprCatacombs/sprCatacombs.yy",},"order":4,},
+    {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},"order":1,},
+>>>>>>> aa98e295179ab4ead5caedb25423fbb49f28570c
+    {"id":{"name":"sPlayerleftidol","path":"sprites/sPlayerleftidol/sPlayerleftidol.yy",},"order":3,},
+    {"id":{"name":"sTileColEnemy","path":"sprites/sTileColEnemy/sTileColEnemy.yy",},"order":9,},
+    {"id":{"name":"sPlayerright","path":"sprites/sPlayerright/sPlayerright.yy",},"order":4,},
+    {"id":{"name":"Object6","path":"objects/Object6/Object6.yy",},"order":11,},
+    {"id":{"name":"sPlayerdownidol","path":"sprites/sPlayerdownidol/sPlayerdownidol.yy",},"order":1,},
+    {"id":{"name":"sPlayerupidol","path":"sprites/sPlayerupidol/sPlayerupidol.yy",},"order":7,},
+<<<<<<< HEAD
+    {"id":{"name":"objWall","path":"objects/objWall/objWall.yy",},"order":5,},
+    {"id":{"name":"sprEnemy","path":"sprites/sprEnemy/sprEnemy.yy",},"order":3,},
+    {"id":{"name":"objWeaponswordHB","path":"objects/objWeaponswordHB/objWeaponswordHB.yy",},"order":2,},
+    {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":2,},
+    {"id":{"name":"Animation_End","path":"scripts/Animation_End/Animation_End.yy",},"order":4,},
+    {"id":{"name":"sprWall","path":"sprites/sprWall/sprWall.yy",},"order":1,},
+    {"id":{"name":"Player_Free","path":"scripts/Player_Free/Player_Free.yy",},"order":0,},
+    {"id":{"name":"Weapon_Sword_Hit","path":"scripts/Weapon_Sword_Hit/Weapon_Sword_Hit.yy",},"order":2,},
+=======
+    {"id":{"name":"sTileCol","path":"sprites/sTileCol/sTileCol.yy",},"order":8,},
+    {"id":{"name":"objWall","path":"objects/objWall/objWall.yy",},"order":0,},
+    {"id":{"name":"sprEnemy","path":"sprites/sprEnemy/sprEnemy.yy",},"order":2,},
+    {"id":{"name":"sprCataDecor","path":"sprites/sprCataDecor/sprCataDecor.yy",},"order":5,},
+    {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":2,},
+    {"id":{"name":"sprWall","path":"sprites/sprWall/sprWall.yy",},"order":0,},
+>>>>>>> aa98e295179ab4ead5caedb25423fbb49f28570c
+    {"id":{"name":"sPlayerup","path":"sprites/sPlayerup/sPlayerup.yy",},"order":6,},
+    {"id":{"name":"tilCatacombs","path":"tilesets/tilCatacombs/tilCatacombs.yy",},"order":1,},
+    {"id":{"name":"sPlayerrightidol","path":"sprites/sPlayerrightidol/sPlayerrightidol.yy",},"order":5,},
+    {"id":{"name":"sprBatSheet","path":"sprites/sprBatSheet/sprBatSheet.yy",},"order":6,},
+    {"id":{"name":"tilEnemyCollision","path":"tilesets/tilEnemyCollision/tilEnemyCollision.yy",},"order":4,},
+    {"id":{"name":"sPlayerleft","path":"sprites/sPlayerleft/sPlayerleft.yy",},"order":2,},
+    {"id":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"order":3,},
+<<<<<<< HEAD
+    {"id":{"name":"sWeaponsworddownHB","path":"sprites/sWeaponsworddownHB/sWeaponsworddownHB.yy",},"order":1,},
+    {"id":{"name":"objGrid","path":"objects/objGrid/objGrid.yy",},"order":0,},
+    {"id":{"name":"Weapon_Sword","path":"scripts/Weapon_Sword/Weapon_Sword.yy",},"order":0,},
+    {"id":{"name":"Weapon_Sword_HB","path":"scripts/Weapon_Sword_HB/Weapon_Sword_HB.yy",},"order":1,},
+=======
+    {"id":{"name":"objCamera","path":"objects/objCamera/objCamera.yy",},"order":2,},
+    {"id":{"name":"objBat","path":"objects/objBat/objBat.yy",},"order":10,},
+    {"id":{"name":"tilCollision","path":"tilesets/tilCollision/tilCollision.yy",},"order":3,},
+    {"id":{"name":"tilCataDecor","path":"tilesets/tilCataDecor/tilCataDecor.yy",},"order":2,},
+    {"id":{"name":"sprBat","path":"sprites/sprBat/sprBat.yy",},"order":7,},
+    {"id":{"name":"objGrid","path":"objects/objGrid/objGrid.yy",},"order":1,},
+>>>>>>> aa98e295179ab4ead5caedb25423fbb49f28570c
+    {"id":{"name":"sPlayerdown","path":"sprites/sPlayerdown/sPlayerdown.yy",},"order":0,},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
+  ],
+  "Options": [
+    {"name":"Amazon Fire","path":"options/amazonfire/options_amazonfire.yy",},
+    {"name":"Android","path":"options/android/options_android.yy",},
+    {"name":"iOS","path":"options/ios/options_ios.yy",},
+    {"name":"Main","path":"options/main/options_main.yy",},
+    {"name":"tvOS","path":"options/tvos/options_tvos.yy",},
+    {"name":"Windows","path":"options/windows/options_windows.yy",},
+  ],
+  "isDnDProject": false,
+  "isEcma": false,
+  "tutorialPath": "",
+  "configs": {
+    "name": "Default",
+    "children": [],
+  },
+  "RoomOrderNodes": [
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
+  "Folders": [
+    {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Tile Sets.yy","order":2,"resourceVersion":"1.0","name":"Tile Sets","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sounds.yy","order":3,"resourceVersion":"1.0","name":"Sounds","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Paths.yy","order":4,"resourceVersion":"1.0","name":"Paths","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts.yy","order":5,"resourceVersion":"1.0","name":"Scripts","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Shaders.yy","order":6,"resourceVersion":"1.0","name":"Shaders","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Fonts.yy","order":7,"resourceVersion":"1.0","name":"Fonts","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Timelines.yy","order":8,"resourceVersion":"1.0","name":"Timelines","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects.yy","order":9,"resourceVersion":"1.0","name":"Objects","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Rooms.yy","order":10,"resourceVersion":"1.0","name":"Rooms","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sequences.yy","order":11,"resourceVersion":"1.0","name":"Sequences","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/RoomObjects.yy","order":9,"resourceVersion":"1.0","name":"RoomObjects","tags":[],"resourceType":"GMFolder",},
+<<<<<<< HEAD
+    {"folderPath":"folders/Sprites/sPlayer.yy","order":7,"resourceVersion":"1.0","name":"sPlayer","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/sWeaponAttack.yy","order":9,"resourceVersion":"1.0","name":"sWeaponAttack","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Weapons.yy","order":13,"resourceVersion":"1.0","name":"Weapons","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/Player.yy","order":2,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/Weapon.yy","order":3,"resourceVersion":"1.0","name":"Weapon","tags":[],"resourceType":"GMFolder",},
+=======
+    {"folderPath":"folders/Sprites/sPlayer.yy","order":3,"resourceVersion":"1.0","name":"sPlayer","tags":[],"resourceType":"GMFolder",},
+>>>>>>> aa98e295179ab4ead5caedb25423fbb49f28570c
+  ],
+  "AudioGroups": [
+    {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
+  ],
+  "TextureGroups": [
+    {"isScaled":true,"autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,"resourceVersion":"1.3","name":"Default","resourceType":"GMTextureGroup",},
+  ],
+  "IncludedFiles": [],
+  "MetaData": {
+    "IDEVersion": "2.3.2.556",
+  },
+  "resourceVersion": "1.4",
+  "name": "TheSeven",
+  "tags": [],
+  "resourceType": "GMProject",
+}

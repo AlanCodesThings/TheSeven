@@ -9,6 +9,9 @@ swordCreated = false;
 
 state = PLAYERSTATE.FREE;
 
+moveX = 0;
+moveY = 0;
+tilemap = layer_tilemap_get_id("Collision");
 enum PLAYERSTATE
 {
 	FREE, 
