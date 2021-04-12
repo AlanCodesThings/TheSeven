@@ -15,3 +15,4 @@ if (xdifference <= 50 && ydifference <= 50){
 		alarm[0] = (room_speed * 1);
 	}
 }
+show_debug_message(hp);
