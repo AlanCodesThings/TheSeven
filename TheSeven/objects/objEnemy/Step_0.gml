@@ -15,3 +15,4 @@ if(xdifference <= aggroRadius && ydifference <= aggroRadius){
 		alarm[0] = (room_speed * 1);
 		}
 	}
+}

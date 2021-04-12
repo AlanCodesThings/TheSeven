@@ -8,7 +8,7 @@ hInput = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 vInput = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
 //Move the player based on keyboard input and check for collisions
-switch (state) 
+
 var bbox_side;
 
 
@@ -57,7 +57,7 @@ if(tilemap_get_at_pixel(tilemap,x, bbox_top + speedWalk) != 0){
 }
 
 
-
+switch (state) 
 {
 	case PLAYERSTATE.FREE:
 		Player_Free();
