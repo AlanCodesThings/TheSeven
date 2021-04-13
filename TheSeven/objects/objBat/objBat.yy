@@ -28,10 +28,13 @@
   "overriddenProperties": [
     {"propertyId":{"name":"enemySpacing","path":"objects/objEnemy/objEnemy.yy",},"objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"value":"40","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"aggroRadius","path":"objects/objEnemy/objEnemy.yy",},"objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"value":"1000","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"enemyImageSpeed","path":"objects/objEnemy/objEnemy.yy",},"objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"value":"0.3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"attackSprite","path":"objects/objEnemy/objEnemy.yy",},"objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"value":"sprBatAttack","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"enemySprite","path":"objects/objEnemy/objEnemy.yy",},"objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"value":"sprBat","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Enemys",
+    "path": "folders/Objects/Enemys.yy",
   },
   "resourceVersion": "1.0",
   "name": "objBat",

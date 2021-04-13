@@ -3,3 +3,5 @@
 if (xdifference <= enemySpacing && ydifference <= enemySpacing){
 	objPlayer.hitpoints	-= damage;
 }
+
+	
