@@ -6,7 +6,6 @@ speedWalk = 1.75;
 checkWalk = speedWalk + 2;
 hitpoints = 50;
 swordCreated = false;
-
 state = PLAYERSTATE.FREE;
 
 moveX = 0;
