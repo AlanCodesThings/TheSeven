@@ -8,32 +8,11 @@ hInput = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 vInput = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
 //Move the player based on keyboard input and check for collisions
+
 var bbox_side;
 
 
-if(hInput != 0 || vInput != 0){
-dir = point_direction(0,0,hInput,vInput);
-moveX = lengthdir_x(speedWalk,dir);
-moveY = lengthdir_y(speedWalk,dir);
-}
-
 //REGULAR COLLISIONS
-if(hInput == 1 && place_free(x + checkWalk, y)){
-	sprite_index = sPlayerright;
-	x += moveX * speedWalk;
-}
-if(hInput == -1 && place_free(x - checkWalk, y)){
-	sprite_index = sPlayerleft;
-	x += moveX * speedWalk;
-}
-if(vInput == 1 && place_free(x, y + checkWalk)){
-	sprite_index = sPlayerdown;
-	y += moveY * speedWalk;
-}
-if(vInput == -1 && place_free(x, y - checkWalk)){
-	sprite_index = sPlayerup;
-	y += moveY * speedWalk;
-}
 
 //TILE COLLISIONS
 if(tilemap_get_at_pixel(tilemap,bbox_right + speedWalk, y) != 0){
@@ -78,21 +57,16 @@ if(tilemap_get_at_pixel(tilemap,x, bbox_top + speedWalk) != 0){
 }
 
 
-
-if(hInput == 0  && vInput == 0)
+switch (state) 
 {
-	switch (sprite_index){
-		case  sPlayerdown:
-			sprite_index = sPlayerdownidol;
-			break;
-		case  sPlayerup:
-			sprite_index = sPlayerupidol;
-			break;
-		case sPlayerright:
-			sprite_index = sPlayerrightidol;
-			break;			
-		case sPlayerleft:
-			sprite_index = sPlayerleftidol;
-			break;		
-			}
-	}
+	case PLAYERSTATE.FREE:
+		Player_Free();
+		break;
+	case PLAYERSTATE.ATTACK:
+		Weapon_Sword();
+		break;
+		
+	
+	
+}
+
