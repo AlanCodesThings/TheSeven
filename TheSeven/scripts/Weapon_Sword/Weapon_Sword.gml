@@ -43,6 +43,7 @@ function Weapon_Sword(){
 if (objPlayer.swordCreated = false){
 	objPlayer.swordCreated = true;
 	instance_create_layer(x,y,"Objects", objWeaponswordHB);
+	
 }
 
 

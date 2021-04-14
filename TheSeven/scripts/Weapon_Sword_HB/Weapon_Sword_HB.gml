@@ -5,6 +5,8 @@ function Weapon_Sword_HB(){
 	ds_list_clear(hitByAttack);
 	var hitByAttackNow = ds_list_create();
 	var hits = instance_place_list(x,y,objEnemy, hitByAttackNow, false);
+	
+	//show_debug_message(ds_list_size(hitByAttackNow));
 	if (hits > 0)
 	{
 		for (var i = 0; i < hits; i++)
@@ -14,7 +16,7 @@ function Weapon_Sword_HB(){
 			var hitID = hitByAttackNow[| i]; //this is the same as ds_list_find_value(hitByAttackNow, i);
 			if (ds_list_find_index(hitByAttack,hitID) == -1)
 			{
-				show_debug_message(hitByAttack);
+				
 				ds_list_add(hitByAttack, hitID);
 				//Weapon_Sword_Hit(hitID);	
 				

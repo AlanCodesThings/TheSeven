@@ -5,4 +5,8 @@
 //		sprite_index =  sWeaponsworddownHB;
 //		break;
 //}
-Weapon_Sword_HB();
+
+if(doOnce == false){
+	doOnce = true;
+	Weapon_Sword_HB();
+}
