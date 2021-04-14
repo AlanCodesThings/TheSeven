@@ -49,7 +49,7 @@
     "spriteId": {"name":"sWeaponswordupHB","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 15.0,
+    "playbackSpeed": 30.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
