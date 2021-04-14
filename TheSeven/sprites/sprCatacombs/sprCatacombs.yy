@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Catacombs",
+    "path": "folders/Sprites/Background/Catacombs.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprCatacombs",

@@ -1,8 +1,14 @@
 {
-  "spriteId": null,
-  "solid": false,
+  "spriteId": {
+    "name": "sPlayerdownidol",
+    "path": "sprites/sPlayerdownidol/sPlayerdownidol.yy",
+  },
+  "solid": true,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sPlayerdownidol",
+    "path": "sprites/sPlayerdownidol/sPlayerdownidol.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -20,15 +26,16 @@
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Weapons",
-    "path": "folders/Objects/Weapons.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objWeaponspawner",
+  "name": "objPlayer",
   "tags": [],
   "resourceType": "GMObject",
 }
