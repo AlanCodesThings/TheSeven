@@ -1,6 +1,3 @@
-/// @description Insert description here
+/// @description Not Being Used Currently
 // You can write your code in this editor
-
-hp = 20;
-flash = 0; 
 

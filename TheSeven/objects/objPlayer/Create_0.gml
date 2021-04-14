@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Initialise values and states
 // You can write your code in this editor
 
 //Set walking speed and collision detection

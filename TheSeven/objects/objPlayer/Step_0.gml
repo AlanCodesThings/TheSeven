@@ -70,6 +70,8 @@ switch (state)
 	
 }
 
+
+//Dont let health under 0 or over max
 if(hitpoints <0){
 	hitpoints =0;	
 }
@@ -78,4 +80,5 @@ if(hitpoints > maxHitpoints){
 	hitpoints = maxHitpoints;	
 }
 
+//Get hp % for health globe
 hpPercent = hitpoints/maxHitpoints;

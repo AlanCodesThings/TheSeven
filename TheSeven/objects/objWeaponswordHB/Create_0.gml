@@ -19,7 +19,6 @@ switch (objPlayer.sprite_index)
 
 
 hitByAttack = ds_list_create();
-show_debug_message("WEAPONCREATED")
 hasHit = false;
 doOnce = false
 

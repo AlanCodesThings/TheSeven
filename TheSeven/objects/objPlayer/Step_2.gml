@@ -6,7 +6,6 @@ halfViewWidth = fullViewWidth / 2;
 fullViewHeight =camera_get_view_height(view_camera[0])
 halfViewHeight = fullViewHeight / 2;
 camera_set_view_pos(view_camera[0], x - halfViewWidth, y - halfViewHeight);
-show_debug_message(room_width - halfViewWidth)
 
 
 //Account for left side of room
