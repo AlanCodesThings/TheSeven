@@ -24,7 +24,7 @@ if(xdifference <= aggroRadius && ydifference <= aggroRadius){
 		path_end();
 		sprite_index = attackSprite;
 		if(alarm[0] == -1){
-		alarm[0] = (room_speed * 1);
+		alarm[0] = (room_speed * 2);
 		}
 	}else{
 		sprite_index = enemySprite
