@@ -1,5 +1,4 @@
 {
-  "name": "tilCatacombs",
   "spriteId": {
     "name": "sprCatacombs",
     "path": "sprites/sprCatacombs/sprCatacombs.yy",
@@ -4923,6 +4922,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "tilCatacombs",
   "tags": [],
   "resourceType": "GMTileSet",
 }

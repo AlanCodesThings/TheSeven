@@ -1,7 +1,10 @@
 {
-  "spriteId": null,
-  "solid": false,
-  "visible": true,
+  "spriteId": {
+    "name": "sprWall",
+    "path": "sprites/sprWall/sprWall.yy",
+  },
+  "solid": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -17,18 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Weapons",
-    "path": "folders/Objects/Weapons.yy",
+    "name": "RoomObjects",
+    "path": "folders/Objects/RoomObjects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objWeaponspawner",
+  "name": "objWall",
   "tags": [],
   "resourceType": "GMObject",
 }

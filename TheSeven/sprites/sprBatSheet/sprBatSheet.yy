@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Bat",
+    "path": "folders/Sprites/Enemies/Bat.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprBatSheet",

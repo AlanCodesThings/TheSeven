@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "RoomStuff",
+    "path": "folders/Sprites/RoomStuff.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprWall",
