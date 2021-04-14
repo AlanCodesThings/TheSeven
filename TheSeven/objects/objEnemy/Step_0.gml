@@ -26,10 +26,12 @@ if(xdifference <= aggroRadius && ydifference <= aggroRadius){
 	//Stop the enemy when it is in autoattacking distance
 	if (xdifference <= enemySpacing && ydifference <= enemySpacing){
 		path_end();
+		
 		//Change to attack sprite and loop through alarm to autoattack
 		sprite_index = attackSprite;
 		if(alarm[0] == -1){
-		alarm[0] = (room_speed * 2);
+		objPlayer.hitpoints	-= damage;
+		alarm[0] = (room_speed * 1);
 		}
 	}else{
 		//if not in auto attacking distance player change back to normal sprite
