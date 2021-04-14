@@ -4,14 +4,14 @@
 xdifference = abs(objPlayer.x - x);
 ydifference = abs(objPlayer.y - y);
 
-
+image_speed = enemyImageSpeed;
 //Check if player is in aggro radius 
 if(xdifference <= aggroRadius && ydifference <= aggroRadius){
 	//Move toward the player using pathfinding
 	myPath = path_add();
 	mp_grid_path(movementGrid, myPath, x, y, objPlayer.x, objPlayer.y, true);
 	path_start(myPath, 3, path_action_stop, true);
-	image_speed = enemyImageSpeed;
+
 	
 	//Collision detection between other enemies
 	var enemyID = instance_place(x,y,objEnemy);
