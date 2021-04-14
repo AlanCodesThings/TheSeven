@@ -31,3 +31,7 @@ if(xdifference <= aggroRadius && ydifference <= aggroRadius){
 	}
 	
 }
+
+if(hp <= 0){
+	instance_destroy();	
+}
