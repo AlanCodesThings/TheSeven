@@ -5,6 +5,7 @@ function Weapon_Sword_Hit(){
 	with(monsterID){
 		var swordDamage = 4;
 		hp -= swordDamage;
+		flash = 5;
 		}	
 	}
 	return -1;

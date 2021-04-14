@@ -41,7 +41,7 @@ if(hInput == 0  && vInput == 0)
 			}
 	}
 
-if keyboard_check(ord("R")){
+if keyboard_check(vk_space){
 	state = PLAYERSTATE.ATTACK;
 }
 }

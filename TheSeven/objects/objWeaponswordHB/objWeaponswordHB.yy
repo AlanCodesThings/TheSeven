@@ -1,10 +1,7 @@
 {
-  "spriteId": {
-    "name": "sWeaponsworddownHB",
-    "path": "sprites/sWeaponsworddownHB/sWeaponsworddownHB.yy",
-  },
+  "spriteId": null,
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
