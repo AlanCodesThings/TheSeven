@@ -65,6 +65,9 @@ switch (state)
 	case PLAYERSTATE.ATTACK:
 		Weapon_Sword();
 		break;
+	case PLAYERSTATE.ABILITY:
+		Player_Ability();
+		break;
 		
 	
 	
