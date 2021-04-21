@@ -20,7 +20,7 @@ enum PLAYERSTATE
 {
 	FREE, 
 	ATTACK,
-	SPELL
+	ABILITY
 }
 
 instance_create_layer(x,y,"Objects",objWeaponspawner);
