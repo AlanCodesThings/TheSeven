@@ -11,6 +11,7 @@ maxHitpoints = hitpoints;
 hpPercent = 1;
 
 swordCreated = false;
+abilityCreated = false;
 state = PLAYERSTATE.FREE;
 
 moveX = 0;

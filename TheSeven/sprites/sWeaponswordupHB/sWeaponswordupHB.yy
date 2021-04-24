@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 51,
+  "bbox_right": 63,
   "bbox_top": 0,
-  "bbox_bottom": 31,
+  "bbox_bottom": 45,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 65,
+  "width": 64,
   "height": 96,
   "textureGroupId": {
     "name": "Default",
@@ -24,26 +24,36 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"88f7973f-141b-4ad9-b3ca-e2e325284f16","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"88f7973f-141b-4ad9-b3ca-e2e325284f16","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"bad76640-8bf7-4cc5-9ac0-6a67726c4cbb","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"88f7973f-141b-4ad9-b3ca-e2e325284f16","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"f5633701-f89d-486f-af45-c91f5140461a","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"88f7973f-141b-4ad9-b3ca-e2e325284f16","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"8bd9959f-1304-418b-bbf4-fade7d5a893d","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sWeaponswordupHB","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"88f7973f-141b-4ad9-b3ca-e2e325284f16","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"59769d78-0ad2-4ff6-8d60-70edf48421fb","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"59769d78-0ad2-4ff6-8d60-70edf48421fb","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"bad76640-8bf7-4cc5-9ac0-6a67726c4cbb","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"59769d78-0ad2-4ff6-8d60-70edf48421fb","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"f5633701-f89d-486f-af45-c91f5140461a","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"59769d78-0ad2-4ff6-8d60-70edf48421fb","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"8bd9959f-1304-418b-bbf4-fade7d5a893d","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sWeaponswordupHB","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"59769d78-0ad2-4ff6-8d60-70edf48421fb","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"c06e76a6-b61a-4116-bd95-2c18c14c36b5","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c06e76a6-b61a-4116-bd95-2c18c14c36b5","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"bad76640-8bf7-4cc5-9ac0-6a67726c4cbb","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"c06e76a6-b61a-4116-bd95-2c18c14c36b5","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"f5633701-f89d-486f-af45-c91f5140461a","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"c06e76a6-b61a-4116-bd95-2c18c14c36b5","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"8bd9959f-1304-418b-bbf4-fade7d5a893d","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sWeaponswordupHB","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"c06e76a6-b61a-4116-bd95-2c18c14c36b5","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"15bdc1d6-b46e-4c56-80f8-a30ad51a4575","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"15bdc1d6-b46e-4c56-80f8-a30ad51a4575","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"bad76640-8bf7-4cc5-9ac0-6a67726c4cbb","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"15bdc1d6-b46e-4c56-80f8-a30ad51a4575","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"f5633701-f89d-486f-af45-c91f5140461a","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"15bdc1d6-b46e-4c56-80f8-a30ad51a4575","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"8bd9959f-1304-418b-bbf4-fade7d5a893d","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sWeaponswordupHB","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"15bdc1d6-b46e-4c56-80f8-a30ad51a4575","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"37a2c20a-897f-405e-9514-0451affcc854","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"37a2c20a-897f-405e-9514-0451affcc854","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"8bd9959f-1304-418b-bbf4-fade7d5a893d","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"37a2c20a-897f-405e-9514-0451affcc854","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"1d24d622-fc86-4984-94ce-31d6f68b102b","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"37a2c20a-897f-405e-9514-0451affcc854","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"29a4979f-8998-4d62-9541-e5390a9059f4","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sWeaponswordupHB","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"37a2c20a-897f-405e-9514-0451affcc854","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b0cfae26-c439-40cb-939f-557051e2aef7","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b0cfae26-c439-40cb-939f-557051e2aef7","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"8bd9959f-1304-418b-bbf4-fade7d5a893d","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"b0cfae26-c439-40cb-939f-557051e2aef7","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"1d24d622-fc86-4984-94ce-31d6f68b102b","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"b0cfae26-c439-40cb-939f-557051e2aef7","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"29a4979f-8998-4d62-9541-e5390a9059f4","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sWeaponswordupHB","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"b0cfae26-c439-40cb-939f-557051e2aef7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f264a57b-38ab-4b72-ba60-bf17f7d9ff8b","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f264a57b-38ab-4b72-ba60-bf17f7d9ff8b","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"8bd9959f-1304-418b-bbf4-fade7d5a893d","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"f264a57b-38ab-4b72-ba60-bf17f7d9ff8b","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"1d24d622-fc86-4984-94ce-31d6f68b102b","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"f264a57b-38ab-4b72-ba60-bf17f7d9ff8b","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"29a4979f-8998-4d62-9541-e5390a9059f4","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sWeaponswordupHB","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"f264a57b-38ab-4b72-ba60-bf17f7d9ff8b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fcccfcb8-cedc-442b-9e52-64972ee51c8a","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fcccfcb8-cedc-442b-9e52-64972ee51c8a","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"8bd9959f-1304-418b-bbf4-fade7d5a893d","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"fcccfcb8-cedc-442b-9e52-64972ee51c8a","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"1d24d622-fc86-4984-94ce-31d6f68b102b","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"fcccfcb8-cedc-442b-9e52-64972ee51c8a","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"29a4979f-8998-4d62-9541-e5390a9059f4","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sWeaponswordupHB","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"fcccfcb8-cedc-442b-9e52-64972ee51c8a","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2548bd91-3870-4095-ba16-5804176361e3","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2548bd91-3870-4095-ba16-5804176361e3","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"8bd9959f-1304-418b-bbf4-fade7d5a893d","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"2548bd91-3870-4095-ba16-5804176361e3","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"1d24d622-fc86-4984-94ce-31d6f68b102b","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"2548bd91-3870-4095-ba16-5804176361e3","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"29a4979f-8998-4d62-9541-e5390a9059f4","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sWeaponswordupHB","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"2548bd91-3870-4095-ba16-5804176361e3","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1a81e745-bb01-4625-9f22-026768187394","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1a81e745-bb01-4625-9f22-026768187394","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"8bd9959f-1304-418b-bbf4-fade7d5a893d","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"1a81e745-bb01-4625-9f22-026768187394","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"1d24d622-fc86-4984-94ce-31d6f68b102b","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"1a81e745-bb01-4625-9f22-026768187394","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"LayerId":{"name":"29a4979f-8998-4d62-9541-e5390a9059f4","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sWeaponswordupHB","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","name":"1a81e745-bb01-4625-9f22-026768187394","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sWeaponswordupHB","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},
@@ -53,15 +63,17 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 4.0,
+    "length": 6.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"6d154cb6-cfab-4eb6-ac88-ad46ebfd733c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"88f7973f-141b-4ad9-b3ca-e2e325284f16","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"855955de-0bb6-49a4-b350-6fa0806e1049","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"59769d78-0ad2-4ff6-8d60-70edf48421fb","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"a41c93dd-b08d-4e40-9e0c-a40907395d8b","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c06e76a6-b61a-4116-bd95-2c18c14c36b5","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"f6bce5d5-f1fd-4e88-b894-755f10f8a70e","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"15bdc1d6-b46e-4c56-80f8-a30ad51a4575","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a62c7abd-14be-49e3-b773-ee1ed8a7e72d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"37a2c20a-897f-405e-9514-0451affcc854","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"036ecd60-5a3d-4d10-bbcb-d484fa24006a","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b0cfae26-c439-40cb-939f-557051e2aef7","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d020b294-c643-4f84-aa7e-c3402bd88d3e","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f264a57b-38ab-4b72-ba60-bf17f7d9ff8b","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6845af45-62de-436e-a381-5a3dc58bd828","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fcccfcb8-cedc-442b-9e52-64972ee51c8a","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1df5d04c-4d7c-43c6-a5e7-4b1fe11539a5","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2548bd91-3870-4095-ba16-5804176361e3","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c4a7c083-7ec1-4758-8230-be2f56bed9a5","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1a81e745-bb01-4625-9f22-026768187394","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -85,7 +97,9 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"bad76640-8bf7-4cc5-9ac0-6a67726c4cbb","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"29a4979f-8998-4d62-9541-e5390a9059f4","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8bd9959f-1304-418b-bbf4-fade7d5a893d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"1d24d622-fc86-4984-94ce-31d6f68b102b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

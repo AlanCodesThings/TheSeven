@@ -2,7 +2,6 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function Weapon_Sword(){
 	
-	curSprite = sprite_index;
 
 	switch (sprite_index){
 		case  sPlayerdown:
