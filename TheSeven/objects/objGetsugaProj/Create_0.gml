@@ -1,4 +1,24 @@
 /// @description Insert description here
 // You can write your code in this editor
-hover = 10;
 vsp = 4;
+dirCheck = undefined; 
+disTrav = 0;
+switch (objGetsuga.sprite_index)
+{
+	case sAbilityGetsugaDownHB:
+		y += 15;
+		dirCheck = "down";
+		break;
+	case sAbilityGetsugaUpHB:
+		y -= 15;
+		dirCheck = "up";
+		break;		
+	case sAbilityGetsugaLeftHB:
+		x -= 15;
+		dirCheck = "left";
+		break;
+	case sAbilityGetsugaRightHB:
+		x += 15;
+		dirCheck = "right";
+		break;		
+}

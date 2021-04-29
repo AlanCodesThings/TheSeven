@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sAbilityGetsugaHB",
-    "path": "sprites/sAbilityGetsugaHB/sAbilityGetsugaHB.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": false,
   "spriteMaskId": null,

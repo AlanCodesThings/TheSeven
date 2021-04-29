@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(image_index ==1){
-	instance_create_layer(x,y+15,"Objects",objGetsugaProj);
+	instance_create_layer(x,y,"Objects",objGetsugaProj);
 }

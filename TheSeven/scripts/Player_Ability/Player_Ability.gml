@@ -7,35 +7,35 @@ function Player_Ability(){
 
 	switch (sprite_index){
 		case  sPlayerdown:
-			sprite_index = sAbilityGetsuga;
+			sprite_index = sAbilityGetsugaDown;
 			image_index = 0;
 			break;
 		case  sPlayerdownidol:
-			sprite_index = sAbilityGetsuga;
+			sprite_index = sAbilityGetsugaDown;
 			image_index = 0;
 			break;
 		case  sPlayerup:
-			sprite_index = sWeaponswordup;
+			sprite_index = sAbilityGetsugaUp;
 			image_index = 0;
 			break;
 		case   sPlayerupidol:
-			sprite_index = sWeaponswordup;
+			sprite_index = sAbilityGetsugaUp;
 			image_index = 0;
 			break;
 		case sPlayerright:
-			sprite_index = sWeaponswordright;
+			sprite_index = sAbilityGetsugaRight;
 			image_index = 0;
 			break;	
 		case sPlayerrightidol:
-			sprite_index = sWeaponswordright;
+			sprite_index = sAbilityGetsugaRight;
 			image_index = 0;
 			break;	
 		case sPlayerleft :
-			sprite_index = sWeaponswordleft;
+			sprite_index = sAbilityGetsugaLeft;
 			image_index = 0;
 			break;		
 		case sPlayerleftidol:
-			sprite_index = sWeaponswordleft;
+			sprite_index = sAbilityGetsugaLeft;
 			image_index = 0;
 			break;
 			}
