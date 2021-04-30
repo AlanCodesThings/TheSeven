@@ -1,6 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function Weapon_Sword_HB(){
+
 	
 	ds_list_clear(hitByAttack);
 	var hitByAttackNow = ds_list_create();
@@ -22,6 +23,7 @@ function Weapon_Sword_HB(){
 				
 				with(hitID){
 					if(Weapon_Sword_Hit(hitID) == -1)exit;
+					ds_list_delete(hitByAttackNow,hitID);
 				}
 
 			}

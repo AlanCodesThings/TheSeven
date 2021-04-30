@@ -6,7 +6,7 @@
 //		break;
 //}
 
-if(doOnce == false){
-	doOnce = true;
-	Weapon_Sword_HB();
-}
+//if(doOnce == false){
+	//doOnce = true;
+Weapon_Sword_HB(hitByAttack);
+//}

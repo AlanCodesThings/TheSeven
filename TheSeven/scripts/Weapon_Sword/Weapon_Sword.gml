@@ -1,8 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function Weapon_Sword(){
-	
-	curSprite = sprite_index;
+	stateAttack = ATTACKSTATE.AUTO;
 
 	switch (sprite_index){
 		case  sPlayerdown:

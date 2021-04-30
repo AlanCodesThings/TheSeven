@@ -11,7 +11,9 @@ maxHitpoints = hitpoints;
 hpPercent = 1;
 
 swordCreated = false;
+abilityCreated = false;
 state = PLAYERSTATE.FREE;
+stateAttack = ATTACKSTATE.AUTO;
 
 moveX = 0;
 moveY = 0;
@@ -22,6 +24,15 @@ enum PLAYERSTATE
 	ATTACK,
 	ABILITY
 }
+
+
+enum ATTACKSTATE
+{
+	AUTO,
+	GETSUGA
+}
+
+
 
 instance_create_layer(x,y,"Instances", objGrid);
 instance_create_layer(x,y,"Instances", objCamera);

@@ -1,0 +1,42 @@
+/// @description Initialise values and states
+// You can write your code in this editor
+
+//Set walking speed and collision detection
+speedWalk = 1.75;
+checkWalk = speedWalk + 2;
+
+//hitpoints
+hitpoints = 50;
+maxHitpoints = hitpoints;
+hpPercent = 1;
+
+swordCreated = false;
+abilityCreated = false;
+state = PLAYERSTATE.FREE;
+stateAttack = ATTACKSTATE.AUTO;
+
+moveX = 0;
+moveY = 0;
+tilemap = layer_tilemap_get_id("WallTiles");
+enum PLAYERSTATE
+{
+	FREE, 
+	ATTACK,
+	ABILITY
+}
+
+<<<<<<< HEAD
+instance_create_layer(x,y,"Instances", objGrid);
+instance_create_layer(x,y,"Instances", objCamera);
+=======
+
+enum ATTACKSTATE
+{
+	AUTO,
+	GETSUGA
+}
+
+
+
+>>>>>>> a0530dcf4e75e9de3b0beae429343dc2f2b16b77
+instance_create_layer(x,y,"Objects",objWeaponspawner);

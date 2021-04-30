@@ -1,81 +1,85 @@
 {
   "resources": [
     {"id":{"name":"objWeaponspawner","path":"objects/objWeaponspawner/objWeaponspawner.yy",},"order":1,},
+    {"id":{"name":"sgetsuhold","path":"sprites/sgetsuhold/sgetsuhold.yy",},"order":3,},
+    {"id":{"name":"sAbilityGetsugaRight","path":"sprites/sAbilityGetsugaRight/sAbilityGetsugaRight.yy",},"order":6,},
     {"id":{"name":"sprBatAttack","path":"sprites/sprBatAttack/sprBatAttack.yy",},"order":1,},
-    {"id":{"name":"sAbilityGetsuga","path":"sprites/sAbilityGetsuga/sAbilityGetsuga.yy",},"order":0,},
     {"id":{"name":"Player_Ability","path":"scripts/Player_Ability/Player_Ability.yy",},"order":0,},
-    {"id":{"name":"sWeaponswordrighthold","path":"sprites/sWeaponswordrighthold/sWeaponswordrighthold.yy",},"order":2,},
     {"id":{"name":"sprCatacombs","path":"sprites/sprCatacombs/sprCatacombs.yy",},"order":0,},
     {"id":{"name":"sPlayerleftidol","path":"sprites/sPlayerleftidol/sPlayerleftidol.yy",},"order":3,},
     {"id":{"name":"objWeaponswordHB","path":"objects/objWeaponswordHB/objWeaponswordHB.yy",},"order":2,},
-    {"id":{"name":"sWeaponswordleft2","path":"sprites/sWeaponswordleft2/sWeaponswordleft2.yy",},"order":14,},
     {"id":{"name":"sPlayerright","path":"sprites/sPlayerright/sPlayerright.yy",},"order":4,},
     {"id":{"name":"objhealthBar","path":"objects/objhealthBar/objhealthBar.yy",},"order":0,},
     {"id":{"name":"sPlayerdownidol","path":"sprites/sPlayerdownidol/sPlayerdownidol.yy",},"order":1,},
+    {"id":{"name":"create_macros","path":"scripts/create_macros/create_macros.yy",},"order":7,},
     {"id":{"name":"sPlayerupidol","path":"sprites/sPlayerupidol/sPlayerupidol.yy",},"order":7,},
+    {"id":{"name":"tilWallTiles","path":"tilesets/tilWallTiles/tilWallTiles.yy",},"order":6,},
     {"id":{"name":"sTileCol","path":"sprites/sTileCol/sTileCol.yy",},"order":0,},
-<<<<<<< HEAD
+    {"id":{"name":"Hit_List","path":"scripts/Hit_List/Hit_List.yy",},"order":7,},
     {"id":{"name":"sprGrass","path":"sprites/sprGrass/sprGrass.yy",},"order":1,},
-    {"id":{"name":"sWeaponswordrightHB","path":"sprites/sWeaponswordrightHB/sWeaponswordrightHB.yy",},"order":5,},
-=======
-    {"id":{"name":"sWeaponsworddownHB","path":"sprites/sWeaponsworddownHB/sWeaponsworddownHB.yy",},"order":11,},
-    {"id":{"name":"sWeaponswordrightHB","path":"sprites/sWeaponswordrightHB/sWeaponswordrightHB.yy",},"order":3,},
     {"id":{"name":"sWeaponswordleft","path":"sprites/sWeaponswordleft/sWeaponswordleft.yy",},"order":15,},
->>>>>>> d0aaeb0e56462110b74f14f2693d7b7b343ffef6
     {"id":{"name":"objWall","path":"objects/objWall/objWall.yy",},"order":0,},
+<<<<<<< HEAD
+    {"id":{"name":"Cave","path":"rooms/Cave/Cave.yy",},"order":2,},
     {"id":{"name":"objGetsuga","path":"objects/objGetsuga/objGetsuga.yy",},"order":0,},
     {"id":{"name":"Enemy_Dead","path":"scripts/Enemy_Dead/Enemy_Dead.yy",},"order":1,},
-<<<<<<< HEAD
     {"id":{"name":"tilGrass","path":"tilesets/tilGrass/tilGrass.yy",},"order":5,},
-    {"id":{"name":"sWeaponswordup","path":"sprites/sWeaponswordup/sWeaponswordup.yy",},"order":6,},
-=======
     {"id":{"name":"sWeaponsworduphold","path":"sprites/sWeaponsworduphold/sWeaponsworduphold.yy",},"order":4,},
->>>>>>> d0aaeb0e56462110b74f14f2693d7b7b343ffef6
+    {"id":{"name":"sprWallTiles40","path":"sprites/sprWallTiles40/sprWallTiles40.yy",},"order":4,},
+=======
+    {"id":{"name":"sWeaponswordleftHB","path":"sprites/sWeaponswordleftHB/sWeaponswordleftHB.yy",},"order":17,},
+    {"id":{"name":"objGetsuga","path":"objects/objGetsuga/objGetsuga.yy",},"order":0,},
+    {"id":{"name":"Enemy_Dead","path":"scripts/Enemy_Dead/Enemy_Dead.yy",},"order":1,},
+    {"id":{"name":"sAbilityGetsugaProj","path":"sprites/sAbilityGetsugaProj/sAbilityGetsugaProj.yy",},"order":2,},
+>>>>>>> a0530dcf4e75e9de3b0beae429343dc2f2b16b77
     {"id":{"name":"sprEnemy","path":"sprites/sprEnemy/sprEnemy.yy",},"order":1,},
     {"id":{"name":"sprCataDecor","path":"sprites/sprCataDecor/sprCataDecor.yy",},"order":1,},
+    {"id":{"name":"objLevel","path":"objects/objLevel/objLevel.yy",},"order":3,},
     {"id":{"name":"sprBatDead","path":"sprites/sprBatDead/sprBatDead.yy",},"order":2,},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":0,},
     {"id":{"name":"sprWall","path":"sprites/sprWall/sprWall.yy",},"order":1,},
+    {"id":{"name":"sAbilityGetsugaLeftHB","path":"sprites/sAbilityGetsugaLeftHB/sAbilityGetsugaLeftHB.yy",},"order":5,},
+    {"id":{"name":"objGetsugaProj","path":"objects/objGetsugaProj/objGetsugaProj.yy",},"order":1,},
     {"id":{"name":"sWeaponswordright","path":"sprites/sWeaponswordright/sWeaponswordright.yy",},"order":16,},
     {"id":{"name":"Animation_End","path":"scripts/Animation_End/Animation_End.yy",},"order":4,},
     {"id":{"name":"Player_Free","path":"scripts/Player_Free/Player_Free.yy",},"order":0,},
     {"id":{"name":"Enemy_Free","path":"scripts/Enemy_Free/Enemy_Free.yy",},"order":0,},
-    {"id":{"name":"sWeaponswordupHB","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"order":5,},
-    {"id":{"name":"sWeaponswordleftHB","path":"sprites/sWeaponswordleftHB/sWeaponswordleftHB.yy",},"order":1,},
     {"id":{"name":"Weapon_Sword_Hit","path":"scripts/Weapon_Sword_Hit/Weapon_Sword_Hit.yy",},"order":2,},
+    {"id":{"name":"sWeaponswordrightHB","path":"sprites/sWeaponswordrightHB/sWeaponswordrightHB.yy",},"order":19,},
     {"id":{"name":"sWeaponswordup","path":"sprites/sWeaponswordup/sWeaponswordup.yy",},"order":12,},
+    {"id":{"name":"sprFloor","path":"sprites/sprFloor/sprFloor.yy",},"order":2,},
     {"id":{"name":"sPlayerup","path":"sprites/sPlayerup/sPlayerup.yy",},"order":6,},
-<<<<<<< HEAD
     {"id":{"name":"sprCamp","path":"sprites/sprCamp/sprCamp.yy",},"order":0,},
-    {"id":{"name":"sWeaponsworddown","path":"sprites/sWeaponsworddown/sWeaponsworddown.yy",},"order":8,},
     {"id":{"name":"tilCatacombs","path":"tilesets/tilCatacombs/tilCatacombs.yy",},"order":1,},
     {"id":{"name":"sPlayerrightidol","path":"sprites/sPlayerrightidol/sPlayerrightidol.yy",},"order":5,},
     {"id":{"name":"Camp","path":"rooms/Camp/Camp.yy",},"order":1,},
-=======
-    {"id":{"name":"sWeaponsworddownhold","path":"sprites/sWeaponsworddownhold/sWeaponsworddownhold.yy",},"order":6,},
-    {"id":{"name":"tilCatacombs","path":"tilesets/tilCatacombs/tilCatacombs.yy",},"order":1,},
-    {"id":{"name":"sPlayerrightidol","path":"sprites/sPlayerrightidol/sPlayerrightidol.yy",},"order":5,},
-    {"id":{"name":"sWeaponswordright31","path":"sprites/sWeaponswordright31/sWeaponswordright31.yy",},"order":13,},
-    {"id":{"name":"sWeaponsworddowntest","path":"sprites/sWeaponsworddowntest/sWeaponsworddowntest.yy",},"order":8,},
->>>>>>> d0aaeb0e56462110b74f14f2693d7b7b343ffef6
     {"id":{"name":"sprHealthFull","path":"sprites/sprHealthFull/sprHealthFull.yy",},"order":1,},
+    {"id":{"name":"sAbilityGetsugaDown","path":"sprites/sAbilityGetsugaDown/sAbilityGetsugaDown.yy",},"order":0,},
+    {"id":{"name":"sWeaponswordupHB","path":"sprites/sWeaponswordupHB/sWeaponswordupHB.yy",},"order":20,},
+    {"id":{"name":"sAbilityGetsugaUpHB","path":"sprites/sAbilityGetsugaUpHB/sAbilityGetsugaUpHB.yy",},"order":9,},
     {"id":{"name":"sprBatSheet","path":"sprites/sprBatSheet/sprBatSheet.yy",},"order":3,},
     {"id":{"name":"tilCamp","path":"tilesets/tilCamp/tilCamp.yy",},"order":4,},
     {"id":{"name":"sPlayerleft","path":"sprites/sPlayerleft/sPlayerleft.yy",},"order":2,},
+    {"id":{"name":"sAbilityGetsugaRightHB","path":"sprites/sAbilityGetsugaRightHB/sAbilityGetsugaRightHB.yy",},"order":7,},
     {"id":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"order":0,},
     {"id":{"name":"objCamera","path":"objects/objCamera/objCamera.yy",},"order":2,},
+    {"id":{"name":"Grid_Place_Meeting","path":"scripts/Grid_Place_Meeting/Grid_Place_Meeting.yy",},"order":1,},
     {"id":{"name":"sprHealthOutline","path":"sprites/sprHealthOutline/sprHealthOutline.yy",},"order":0,},
     {"id":{"name":"objBat","path":"objects/objBat/objBat.yy",},"order":1,},
+    {"id":{"name":"sprWallTiles","path":"sprites/sprWallTiles/sprWallTiles.yy",},"order":3,},
     {"id":{"name":"Weapon_Sword","path":"scripts/Weapon_Sword/Weapon_Sword.yy",},"order":0,},
     {"id":{"name":"Weapon_Sword_HB","path":"scripts/Weapon_Sword_HB/Weapon_Sword_HB.yy",},"order":1,},
+    {"id":{"name":"sAbilityGetsugaUp","path":"sprites/sAbilityGetsugaUp/sAbilityGetsugaUp.yy",},"order":8,},
     {"id":{"name":"tilCollision","path":"tilesets/tilCollision/tilCollision.yy",},"order":3,},
     {"id":{"name":"sWeaponsworddown","path":"sprites/sWeaponsworddown/sWeaponsworddown.yy",},"order":10,},
     {"id":{"name":"tilCataDecor","path":"tilesets/tilCataDecor/tilCataDecor.yy",},"order":2,},
+    {"id":{"name":"sWeaponsworddownHB","path":"sprites/sWeaponsworddownHB/sWeaponsworddownHB.yy",},"order":18,},
     {"id":{"name":"shWhite","path":"shaders/shWhite/shWhite.yy",},"order":1,},
     {"id":{"name":"sprBat","path":"sprites/sprBat/sprBat.yy",},"order":0,},
-    {"id":{"name":"sWeaponswordlefthold","path":"sprites/sWeaponswordlefthold/sWeaponswordlefthold.yy",},"order":0,},
+    {"id":{"name":"sAbilityGetsugaLeft","path":"sprites/sAbilityGetsugaLeft/sAbilityGetsugaLeft.yy",},"order":4,},
     {"id":{"name":"objGrid","path":"objects/objGrid/objGrid.yy",},"order":1,},
     {"id":{"name":"sPlayerdown","path":"sprites/sPlayerdown/sPlayerdown.yy",},"order":0,},
+    {"id":{"name":"sAbilityGetsugaDownHB","path":"sprites/sAbilityGetsugaDownHB/sAbilityGetsugaDownHB.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -96,8 +100,13 @@
     "children": [],
   },
   "RoomOrderNodes": [
+<<<<<<< HEAD
+    {"roomId":{"name":"Cave","path":"rooms/Cave/Cave.yy",},},
     {"roomId":{"name":"Camp","path":"rooms/Camp/Camp.yy",},},
+=======
+>>>>>>> a0530dcf4e75e9de3b0beae429343dc2f2b16b77
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Camp","path":"rooms/Camp/Camp.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -129,13 +138,11 @@
     {"folderPath":"folders/Sprites/Background/Catacombs.yy","order":0,"resourceVersion":"1.0","name":"Catacombs","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/RoomStuff.yy","order":14,"resourceVersion":"1.0","name":"RoomStuff","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Enemy.yy","order":5,"resourceVersion":"1.0","name":"Enemy","tags":[],"resourceType":"GMFolder",},
-<<<<<<< HEAD
     {"folderPath":"folders/Sprites/Background/Camp.yy","order":1,"resourceVersion":"1.0","name":"Camp","tags":[],"resourceType":"GMFolder",},
-=======
     {"folderPath":"folders/Sprites/sPlayerAbilities.yy","order":15,"resourceVersion":"1.0","name":"sPlayerAbilities","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Ability.yy","order":6,"resourceVersion":"1.0","name":"Ability","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Abilities.yy","order":15,"resourceVersion":"1.0","name":"Abilities","tags":[],"resourceType":"GMFolder",},
->>>>>>> d0aaeb0e56462110b74f14f2693d7b7b343ffef6
+    {"folderPath":"folders/Sprites/sPlayerAbilities/Getsuga.yy","order":2,"resourceVersion":"1.0","name":"Getsuga","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
@@ -145,7 +152,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.560",
+    "IDEVersion": "2.3.2.558",
   },
   "resourceVersion": "1.4",
   "name": "TheSeven",
