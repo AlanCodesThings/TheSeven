@@ -12,10 +12,15 @@ image_speed = enemyImageSpeed;
 if(xdifference <= aggroRadius && ydifference <= aggroRadius){
 	//Move toward the player using pathfinding
 	myPath = path_add();
-	mp_grid_path(movementGrid, myPath, x, y, objPlayer.x, objPlayer.y, true);
-	path_start(myPath, 3, path_action_stop, true);
-
+	if(instance_exists(objPlayer)){
+	var xx = (objPlayer.x div CELL_WIDTH) * CELL_WIDTH + CELL_WIDTH/2;
+	var yy = (objPlayer.y div CELL_HEIGHT) * CELL_HEIGHT + CELL_HEIGHT/2;
 	
+	if(mp_grid_path(movementGrid, myPath, x, y, xx, yy,false))
+		{
+		path_start(myPath, 3, path_action_stop, true);
+		}
+	}
 	//Collision detection between other enemies
 	var enemyID = instance_place(x,y,objEnemy);
 	if (enemyID != noone){

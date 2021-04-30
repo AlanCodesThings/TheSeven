@@ -10,9 +10,38 @@ vInput = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 //Move the player based on keyboard input and check for collisions
 
 var bbox_side;
+/*
+//Grid Collision with Generated Level
+if(hInput > 0){
+	if(Grid_Place_Meeting(self, objLevel.grid_)){
+		x = bbox_right&~(CELL_WIDTH-1);
+		x -= bbox_right -x;
+		moveX = 0;
+	}
+} else if( hInput < 0 ){
+	if(Grid_Place_Meeting(self, objLevel.grid_)){
+		x = bbox_left&~(CELL_WIDTH - 1);
+		x += CELL_WIDTH + x - bbox_left;
+		moveX = 0;
+	}
+		
+}
 
-
-//REGULAR COLLISIONS
+if (vInput > 0){
+	if(Grid_Place_Meeting(self, objLevel.grid_)){
+		y = bbox_bottom&~(CELL_HEIGHT-1);
+		y-= bbox_bottom -y;
+		moveY = 0;
+	}
+	
+} else if (vInput < 0){
+	if(Grid_Place_Meeting(self, objLevel.grid_)){
+		y = bbox_top&~(CELL_HEIGHT-1);
+		y += CELL_HEIGHT + y - bbox_top;
+		moveY = 0;
+	}
+}
+*/
 
 //TILE COLLISIONS
 if(tilemap_get_at_pixel(tilemap,bbox_right + speedWalk, y) != 0){

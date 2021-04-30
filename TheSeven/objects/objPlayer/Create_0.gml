@@ -15,7 +15,7 @@ state = PLAYERSTATE.FREE;
 
 moveX = 0;
 moveY = 0;
-tilemap = layer_tilemap_get_id("Collision");
+tilemap = layer_tilemap_get_id("WallTiles");
 enum PLAYERSTATE
 {
 	FREE, 
@@ -23,4 +23,6 @@ enum PLAYERSTATE
 	ABILITY
 }
 
+instance_create_layer(x,y,"Instances", objGrid);
+instance_create_layer(x,y,"Instances", objCamera);
 instance_create_layer(x,y,"Objects",objWeaponspawner);
