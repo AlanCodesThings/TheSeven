@@ -16,6 +16,22 @@ if (dirCheck == "right"){
 	x = x + vsp;
 	}
 disTrav += 1;
-if (disTrav > 20){
+if (disTrav > 40){
 	instance_destroy();	
+}
+
+
+
+
+
+
+if(doOnce == false){
+	doOnce = true;
+	Weapon_Sword_HB();
+}
+doOnceReset += 1;
+if(doOnceReset >= 5)
+{
+	doOnce = false; 
+	doOnceReset = 0;
 }

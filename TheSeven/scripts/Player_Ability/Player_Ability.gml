@@ -2,7 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function Player_Ability(){
 
-
+	stateAttack = ATTACKSTATE.GETSUGA;
 	
 
 	switch (sprite_index){

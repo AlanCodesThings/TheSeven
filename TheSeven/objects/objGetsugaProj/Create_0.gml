@@ -3,6 +3,10 @@
 vsp = 4;
 dirCheck = undefined; 
 disTrav = 0;
+doOnce = false;
+doOnceReset = 0;
+hitByAttack = ds_list_create();
+hasHit = ds_list_create();
 switch (objGetsuga.sprite_index)
 {
 	case sAbilityGetsugaDownHB:
