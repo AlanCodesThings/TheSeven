@@ -70,7 +70,6 @@
     {"id":{"name":"shWhite","path":"shaders/shWhite/shWhite.yy",},"order":1,},
     {"id":{"name":"sprBat","path":"sprites/sprBat/sprBat.yy",},"order":0,},
     {"id":{"name":"sAbilityGetsugaLeft","path":"sprites/sAbilityGetsugaLeft/sAbilityGetsugaLeft.yy",},"order":4,},
-    {"id":{"name":"objGrid","path":"objects/objGrid/objGrid.yy",},"order":1,},
     {"id":{"name":"sPlayerdown","path":"sprites/sPlayerdown/sPlayerdown.yy",},"order":0,},
     {"id":{"name":"sAbilityGetsugaDownHB","path":"sprites/sAbilityGetsugaDownHB/sAbilityGetsugaDownHB.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
@@ -93,8 +92,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Camp","path":"rooms/Camp/Camp.yy",},},
     {"roomId":{"name":"Cave","path":"rooms/Cave/Cave.yy",},},
+    {"roomId":{"name":"Camp","path":"rooms/Camp/Camp.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
@@ -141,7 +140,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.560",
+    "IDEVersion": "2.3.2.558",
   },
   "resourceVersion": "1.4",
   "name": "TheSeven",
