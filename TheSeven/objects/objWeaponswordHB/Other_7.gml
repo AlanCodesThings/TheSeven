@@ -16,6 +16,6 @@ switch (sprite_index)
 		objPlayer.sprite_index = sPlayerrightidol;
 		break;		
 }
-
+objEnemy.invulAuto = false;
 objPlayer.state = PLAYERSTATE.FREE;
 objPlayer.swordCreated = false;

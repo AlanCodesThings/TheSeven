@@ -5,16 +5,20 @@ function Weapon_Sword_Hit(){
 	switch (objPlayer.stateAttack){
 		case ATTACKSTATE.AUTO:
 			with(monsterID){
+				if (invulAuto == false){
 				var swordDamage = 4;
 				hp -= swordDamage;
 				flash = 5;
+				invulAuto = true;}
 				}	
 				break;
 		case ATTACKSTATE.GETSUGA:
 			with(monsterID){
+				if (invulGetsuga == false){
 				var swordDamage = 1;
 				hp -= swordDamage;
 				flash = 5;
+				invulGetsuga = true;}
 				}	
 				break;
 		
