@@ -18,6 +18,7 @@ stateAttack = ATTACKSTATE.AUTO;
 moveX = 0;
 moveY = 0;
 tilemap = layer_tilemap_get_id("WallTiles");
+
 enum PLAYERSTATE
 {
 	FREE, 
