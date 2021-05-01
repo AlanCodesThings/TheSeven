@@ -18,7 +18,8 @@ if (dirCheck == "right"){
 disTrav += 1;
 if (disTrav > 40){
 	instance_destroy();	
-	objEnemy.invulGetsuga = false;
+	if (instance_exists(objEnemy)){
+	objEnemy.invulGetsuga = false;}
 }
 
 

@@ -17,7 +17,7 @@ function Weapon_Sword_Hit(){
 				if (invulGetsuga == false){
 				var swordDamage = 1;
 				hp -= swordDamage;
-				flash = 5;
+				flash = 15;
 				invulGetsuga = true;}
 				}	
 				break;
