@@ -2,6 +2,7 @@
 // You can write your code in this editor
 randomize();
 
+
 //Get tile layer map id
 var _wall_map_id = layer_tilemap_get_id("WallTiles");
 
@@ -11,11 +12,14 @@ var _wall_map_id = layer_tilemap_get_id("WallTiles");
 width_ = room_width div CELL_WIDTH;
 height_ = room_height div CELL_HEIGHT;
 grid_ = ds_grid_create(width_, height_);
-ds_grid_set_region(grid_,0,0,width_,height_,VOID);
-
 //Set up movement grid for enemy
 globalvar movementGrid;
-movementGrid = mp_grid_create(0,0,width_,height_, CELL_WIDTH, CELL_HEIGHT);
+movementGrid = mp_grid_create(0,0,width_,height_, 32, 32);
+
+ds_grid_set_region(grid_,0,0,width_,height_,VOID);
+
+
+
 
 //Create the controller while will walk around the grid randomly making floors
 
@@ -34,7 +38,7 @@ var _direction_change_odds = 1;
 // Repeat this _steps number of time (bigger = more tiles)
 repeat (_steps){
 	grid_[# _controller_x, _controller_y] = FLOOR;	
-	var odds = 10;
+	var odds = 30;
 	var ex = _controller_x * CELL_WIDTH + CELL_WIDTH /2;
 	var ey = _controller_y * CELL_HEIGHT + CELL_HEIGHT /2;
 	if(point_distance(ex,ey,objPlayer.x, objPlayer.y) > 80 && irandom(odds) == odds) {
@@ -68,7 +72,7 @@ repeat (_steps){
 for (var _y = 1; _y < height_ -1; _y++) {
 	for (var _x = 1; _x < width_ -1; _x++){
 		if(grid_[# _x, _y] != FLOOR){
-			mp_grid_add_cell(movementGrid, _x,_y);
+			
 			
 			var _north_tile =grid_[# _x, _y -1] == VOID;
 			var _west_tile =grid_[# _x -1, _y] == VOID;
@@ -86,6 +90,7 @@ for (var _y = 1; _y < height_ -1; _y++) {
 for (var _y = 1; _y < height_ -1; _y++) {
 	for (var _x = 1; _x < width_ -1; _x++){
 		if(grid_[# _x, _y] != FLOOR){
+			mp_grid_add_cell(movementGrid, _x,_y);
 			var _north_tile =grid_[# _x, _y -1] == VOID;
 			var _west_tile =grid_[# _x -1, _y] == VOID;
 			var _east_tile  =grid_[# _x + 1, _y] == VOID;
@@ -97,7 +102,7 @@ for (var _y = 1; _y < height_ -1; _y++) {
 		}
 	}
 }
-
+/*
 for(var xx = 0; xx<tilemap_get_width(_wall_map_id); xx++){
 	for(var yy = 0; yy<tilemap_get_height(_wall_map_id); yy++){
 		var data = tilemap_get(_wall_map_id, xx, yy)
@@ -108,3 +113,4 @@ for(var xx = 0; xx<tilemap_get_width(_wall_map_id); xx++){
 		}
 	}
 }
+*/

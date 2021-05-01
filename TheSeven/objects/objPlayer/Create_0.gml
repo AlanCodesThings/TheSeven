@@ -35,6 +35,6 @@ enum ATTACKSTATE
 
 
 
-instance_create_layer(x,y,"Instances", objGrid);
+
 instance_create_layer(x,y,"Instances", objCamera);
 instance_create_layer(x,y,"Objects",objWeaponspawner);
