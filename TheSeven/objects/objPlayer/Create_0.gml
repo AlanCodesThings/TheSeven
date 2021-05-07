@@ -2,7 +2,8 @@
 // You can write your code in this editor
 
 //Set walking speed and collision detection
-speedWalk = 1.75;
+
+speedWalk = 1.5;
 checkWalk = speedWalk + 2;
 
 //hitpoints

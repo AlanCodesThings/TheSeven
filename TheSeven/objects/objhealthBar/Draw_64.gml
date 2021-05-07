@@ -6,3 +6,4 @@ var _yOffset = sprite_height - _h;
 var _y = y + _yOffset;
 
 draw_sprite_part(sprHealthFull,0,0,_yOffset,sprite_width,_h,x,_y);
+

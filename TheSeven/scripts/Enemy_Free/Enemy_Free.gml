@@ -18,7 +18,7 @@ if(xdifference <= aggroRadius && ydifference <= aggroRadius){
 	
 	if(mp_grid_path(movementGrid, myPath, x, y, xx, yy,false))
 		{
-		path_start(myPath, 3, path_action_stop, true);
+		path_start(myPath, 1, path_action_stop, true);
 		}
 	}
 	//Collision detection between other enemies

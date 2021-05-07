@@ -43,6 +43,8 @@ if (vInput > 0){
 }
 */
 
+
+
 //TILE COLLISIONS
 if(tilemap_get_at_pixel(tilemap,bbox_right + speedWalk, y) != 0){
 	x = round(x);
