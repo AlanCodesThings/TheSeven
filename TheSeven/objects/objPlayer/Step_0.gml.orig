@@ -121,8 +121,11 @@ if(manaPoints <= 0){
 
 //Get hp % for health globe
 hpPercent = hitpoints/maxHitpoints;
+<<<<<<< HEAD
 
 if(hitpoints <= 0){
 	global.level = 0;
 	room_goto_previous();	
 }
+=======
+>>>>>>> a4e3e865c3a34593a1cfbfa651320c906c7977ac
