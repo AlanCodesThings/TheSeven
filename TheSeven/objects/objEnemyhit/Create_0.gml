@@ -4,4 +4,4 @@ alarm[0] = 50;
 size = 1;
 enemyhitBy = "auto"; 
 dmgnumberReset = true;
-damage = 1;
+damage = 0;
