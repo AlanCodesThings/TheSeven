@@ -10,6 +10,9 @@ function Weapon_Sword_HB(){
 	//show_debug_message(ds_list_size(hitByAttackNow));
 	if (hits > 0)
 	{
+		if(objPlayer.hasSwung){
+			audio_play_sound(sndSwordHit,10,false);	
+		}
 		for (var i = 0; i < hits; i++)
 		{
 			
@@ -29,7 +32,12 @@ function Weapon_Sword_HB(){
 			}
 		}
 		
+	}else{
+		if(objPlayer.hasSwung){
+			audio_play_sound(sndSwordSwing,10,false);	
+		}
 	}
+objPlayer.hasSwung = false;
 ds_list_destroy(hitByAttackNow);
 
 }

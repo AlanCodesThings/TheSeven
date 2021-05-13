@@ -21,6 +21,7 @@ abilityCreated = false;
 state = PLAYERSTATE.FREE;
 stateAttack = ATTACKSTATE.AUTO;
 abilityState = ABILITYSTATE.GETSUGA;
+hasSwung = false;
 
 moveX = 0;
 moveY = 0;

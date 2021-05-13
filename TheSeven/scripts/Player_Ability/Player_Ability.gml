@@ -6,6 +6,7 @@ function Player_Ability(){
 	
 	if (abilityState == ABILITYSTATE.GETSUGA){
 		if (manaPoints >= abilityCost){ 
+		//audio_play_sound(sndGetsuga,10,false);
 		switch (sprite_index){
 			case  sPlayerdown:
 				sprite_index = sAbilityGetsugaDown;
