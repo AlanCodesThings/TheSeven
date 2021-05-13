@@ -1,14 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 #region MOVE THE VIEW
 fullViewWidth =  camera_get_view_width(view_camera[0])
-halfViewWidth = fullViewWidth / 2;
 fullViewHeight =camera_get_view_height(view_camera[0])
+
+halfViewWidth = fullViewWidth / 2;
 halfViewHeight = fullViewHeight / 2;
 camera_set_view_pos(view_camera[0], x - halfViewWidth, y - halfViewHeight);
 
 
 //Account for left side of room
+if(room == Camp){
 if(x- halfViewWidth <= 0)
 {
 		//Account for top left
@@ -53,4 +56,5 @@ if(y + halfViewHeight>= room_height){
 		exit;
 	}
 	camera_set_view_pos(view_camera[0], x - halfViewWidth,room_height- fullViewHeight);
+}
 }
