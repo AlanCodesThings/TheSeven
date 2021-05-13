@@ -8,7 +8,7 @@ function Weapon_Sword_Hit(){
 		case ATTACKSTATE.AUTO:
 			with(monsterID){
 				if (invulAuto == false){
-				var swordDamage = 1 ;
+				var swordDamage = 3 ;
 				var autoRange = irandom_range(swordDamage, swordDamage+2) ;
 				if(hp > 0){
 					instance_create_layer(x + irandom_range(-10,10), y + irandom_range(-10,10), "Objects", objEnemyhit)
@@ -19,7 +19,10 @@ function Weapon_Sword_Hit(){
 				
 				hp -= autoRange;
 				enemyHitNumber = autoRange;
+				if (instance_exists(objEnemyhit)){
+				if (objEnemyhit.dmgnumberReset == true){
 				objEnemyhit.damage = enemyHitNumber;
+				objEnemyhit.dmgnumberReset = false;}}
 				flash = 5;
 				show_debug_message(enemyHitNumber);
 				invulAuto = true;}
