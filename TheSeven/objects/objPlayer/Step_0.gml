@@ -113,6 +113,11 @@ if(hitpoints <0){
 if(hitpoints > maxHitpoints){
 	hitpoints = maxHitpoints;	
 }
+//dont let mana go under 0 
+if(manaPoints <= 0){
+	manaPoints = 0;	
+}
+
 
 //Get hp % for health globe
 hpPercent = hitpoints/maxHitpoints;

@@ -11,8 +11,10 @@
     {"id":{"name":"objWeaponswordHB","path":"objects/objWeaponswordHB/objWeaponswordHB.yy",},"order":2,},
     {"id":{"name":"sPlayerright","path":"sprites/sPlayerright/sPlayerright.yy",},"order":4,},
     {"id":{"name":"sWeaponswordleftHB","path":"sprites/sWeaponswordleftHB/sWeaponswordleftHB.yy",},"order":21,},
+    {"id":{"name":"objEnemyhit","path":"objects/objEnemyhit/objEnemyhit.yy",},"order":0,},
     {"id":{"name":"tilAnimations","path":"tilesets/tilAnimations/tilAnimations.yy",},"order":13,},
     {"id":{"name":"objhealthBar","path":"objects/objhealthBar/objhealthBar.yy",},"order":0,},
+    {"id":{"name":"enemydamageFont","path":"fonts/enemydamageFont/enemydamageFont.yy",},"order":0,},
     {"id":{"name":"sPlayerdownidol","path":"sprites/sPlayerdownidol/sPlayerdownidol.yy",},"order":1,},
     {"id":{"name":"create_macros","path":"scripts/create_macros/create_macros.yy",},"order":7,},
     {"id":{"name":"sPlayerupidol","path":"sprites/sPlayerupidol/sPlayerupidol.yy",},"order":7,},
@@ -103,8 +105,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Camp","path":"rooms/Camp/Camp.yy",},},
     {"roomId":{"name":"Cave","path":"rooms/Cave/Cave.yy",},},
+    {"roomId":{"name":"Camp","path":"rooms/Camp/Camp.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
@@ -142,6 +144,7 @@
     {"folderPath":"folders/Scripts/Ability.yy","order":6,"resourceVersion":"1.0","name":"Ability","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Abilities.yy","order":15,"resourceVersion":"1.0","name":"Abilities","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/sPlayerAbilities/Getsuga.yy","order":2,"resourceVersion":"1.0","name":"Getsuga","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/DamageNumbers.yy","order":16,"resourceVersion":"1.0","name":"DamageNumbers","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
