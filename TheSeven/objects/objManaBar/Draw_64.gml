@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 draw_self();
-var _h = objPlayer.hpPercent * sprite_height;
+var _h = objPlayer.manaPercent * sprite_height;
 var _yOffset = sprite_height - _h;
 var _y = y + _yOffset;
 

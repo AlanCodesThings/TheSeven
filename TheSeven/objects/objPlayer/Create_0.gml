@@ -12,8 +12,9 @@ maxHitpoints = hitpoints;
 hpPercent = 1;
 
 //manapoints and ability cost (ability cost will change absed on ability equipped)
-manaPoints = 80;
-abilityCost = 2;
+maxMana = 80
+manaPoints = maxMana;
+abilityCost = 5;
 
 swordCreated = false;
 abilityCreated = false;

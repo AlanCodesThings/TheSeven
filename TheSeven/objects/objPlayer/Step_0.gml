@@ -121,6 +121,8 @@ if(manaPoints <= 0){
 
 //Get hp % for health globe
 hpPercent = hitpoints/maxHitpoints;
+//Get mana % for mana globe
+manaPercent = manaPoints/maxMana;
 
 if(hitpoints <= 0){
 	global.level = 0;
