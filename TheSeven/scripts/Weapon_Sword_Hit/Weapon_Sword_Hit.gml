@@ -10,19 +10,23 @@ function Weapon_Sword_Hit(){
 				if (invulAuto == false){
 				var swordDamage = 3 ;
 				var autoRange = irandom_range(swordDamage, swordDamage+2) ;
+				var currentHit = undefined;
+				var currentHitID= undefined;
 				if(hp > 0){
-					instance_create_layer(x + irandom_range(-10,10), y + irandom_range(-10,10), "Objects", objEnemyhit)
-						
+						currentHit = instance_create_layer(x + irandom_range(-10,10), y + irandom_range(-10,10), "Objects", objEnemyhit)
+						currentHitID =currentHit.id;
 						objEnemyhit.enemyhitBy = "auto";
 					}
 				
 				
 				hp -= autoRange;
 				enemyHitNumber = autoRange;
-				if (instance_exists(objEnemyhit)){
-				if (objEnemyhit.dmgnumberReset == true){
-				objEnemyhit.damage = enemyHitNumber;
-				objEnemyhit.dmgnumberReset = false;}}
+				
+				if (currentHitID != undefined){
+					if (currentHit.dmgnumberReset == true){
+						currentHit.damage = enemyHitNumber;
+					}
+				}
 				flash = 5;
 				show_debug_message(enemyHitNumber);
 				invulAuto = true;}
@@ -31,14 +35,27 @@ function Weapon_Sword_Hit(){
 		case ATTACKSTATE.ABILITY:
 			with(monsterID){
 				if (invulGetsuga == false){
-				var swordDamage = 7 ;
-					if(hp > 0){
-					instance_create_layer(x + irandom_range(-10,10), y + irandom_range(-10,10), "Objects", objEnemyhit)
-						objEnemyhit.damage = swordDamage;
+				var swordDamage = 1 ;
+				var autoRange = irandom_range(swordDamage, swordDamage+2) ;
+				var currentHit = undefined;
+				var currentHitID= undefined;
+				if(hp > 0){
+						currentHit = instance_create_layer(x + irandom_range(-10,10), y + irandom_range(-10,10), "Objects", objEnemyhit)
+						currentHitID =currentHit.id;
 						objEnemyhit.enemyhitBy = "getsuga";
 					}
-				hp -= swordDamage;
-				flash = 15;
+				
+				
+				hp -= autoRange;
+				enemyHitNumber = autoRange;
+				
+				if (currentHitID != undefined){
+					if (currentHit.dmgnumberReset == true){
+						currentHit.damage = enemyHitNumber;
+					}
+				}
+				flash = 5;
+				show_debug_message(enemyHitNumber);
 				invulGetsuga = true;}
 				}	
 				break;
