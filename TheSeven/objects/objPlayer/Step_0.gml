@@ -116,3 +116,8 @@ if(hitpoints > maxHitpoints){
 
 //Get hp % for health globe
 hpPercent = hitpoints/maxHitpoints;
+
+if(hitpoints <= 0){
+	global.level = 0;
+	room_goto_previous();	
+}

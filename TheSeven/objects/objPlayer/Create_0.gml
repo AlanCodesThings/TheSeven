@@ -18,7 +18,9 @@ stateAttack = ATTACKSTATE.AUTO;
 
 moveX = 0;
 moveY = 0;
-tilemap = layer_tilemap_get_id("WallTiles");
+
+var tmp_layer = layer_get_id("WallTiles")
+tilemap = layer_tilemap_get_id(tmp_layer);
 
 enum PLAYERSTATE
 {
@@ -35,7 +37,11 @@ enum ATTACKSTATE
 }
 
 
+//var tmp_layer = layer_get_id(tmp_layer);
+window_x = window_get_width();
+window_y = window_get_height();
 
-
+instance_create_layer(window_x/3 - 96 ,window_get_height() - 210,"Instances", objHealthBar)
+instance_create_layer(window_x/1.5 - 96 ,window_get_height() - 210,"Instances", objManaBar)
 instance_create_layer(x,y,"Instances", objCamera);
 instance_create_layer(x,y,"Objects",objWeaponspawner);

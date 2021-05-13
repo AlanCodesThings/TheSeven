@@ -1,10 +1,9 @@
-/// @description Insert description here
-// You can write your code in this editor
 randomize();
-global.level = 0;
+
 
 
 //Get tile layer map id
+
 var _wall_map_id = layer_tilemap_get_id("WallTiles");
 
 
@@ -160,3 +159,4 @@ for (var _y = 1; _y < height_ -1; _y++) {
 		}
 	}
 }
+

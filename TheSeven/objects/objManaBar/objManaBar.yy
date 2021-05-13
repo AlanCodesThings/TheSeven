@@ -31,7 +31,7 @@
     "path": "folders/Objects/UI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objHealthBar",
+  "name": "objManaBar",
   "tags": [],
   "resourceType": "GMObject",
 }
