@@ -35,7 +35,7 @@ function Weapon_Sword_Hit(){
 		case ATTACKSTATE.ABILITY:
 			with(monsterID){
 				if (invulGetsuga == false){
-				var swordDamage = 1 ;
+				var swordDamage = 6 ;
 				var autoRange = irandom_range(swordDamage, swordDamage+2) ;
 				var currentHit = undefined;
 				var currentHitID= undefined;
