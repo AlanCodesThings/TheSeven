@@ -8,6 +8,6 @@ switch (enemyhitBy)
 		break;
 	case "getsuga":
 		draw_text_ext_transformed_color(x+1,y+1, damage, 5,500,size,size,0,c_black,c_black,c_black,c_black, 1);
-		draw_text_ext_transformed_color(x,y, damage, 5,500,size,size,0,0139139,0139139,0255255,0255255, 1);
+		draw_text_ext_transformed_color(x,y, damage, 5,500,size,size,0,000080,000080,000080,000080, 1);
 		break;
 		}
