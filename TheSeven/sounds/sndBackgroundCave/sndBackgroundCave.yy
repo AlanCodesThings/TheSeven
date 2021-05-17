@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.5,
+  "volume": 0.3,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "sndSwordSwing.mp3",
-  "duration": 0.449082,
+  "soundFile": "sndBackgroundCave.mp3",
+  "duration": 44.978,
   "parent": {
-    "name": "Sound Effects",
-    "path": "folders/Sounds/Sound Effects.yy",
+    "name": "Background Sound",
+    "path": "folders/Sounds/Background Sound.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sndSwordSwing",
+  "name": "sndBackgroundCave",
   "tags": [],
   "resourceType": "GMSound",
 }

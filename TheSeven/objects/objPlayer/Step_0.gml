@@ -128,3 +128,4 @@ if(hitpoints <= 0){
 	global.level = 0;
 	room_goto_previous();	
 }
+

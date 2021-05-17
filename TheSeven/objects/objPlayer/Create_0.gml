@@ -22,6 +22,8 @@ state = PLAYERSTATE.FREE;
 stateAttack = ATTACKSTATE.AUTO;
 abilityState = ABILITYSTATE.GETSUGA;
 hasSwung = false;
+abilitySoundPlayed = false;
+
 
 moveX = 0;
 moveY = 0;

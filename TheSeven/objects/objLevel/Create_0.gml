@@ -1,6 +1,7 @@
 randomize();
 
-
+//Create sound player
+//instance_create_layer(0,0,"Instances",objSoundPlayer);
 
 //Get tile layer map id
 
@@ -32,8 +33,12 @@ var _steps = 500;
 
 var _player_start_x = _controller_x * CELL_WIDTH + CELL_WIDTH /2;
 var _player_start_y = _controller_y * CELL_HEIGHT + CELL_HEIGHT/2;
-instance_create_layer(_player_start_x,_player_start_y, "Instances", objPlayer);
-
+if(!instance_exists(objPlayer)){
+	instance_create_layer(_player_start_x,_player_start_y, "Instances", objPlayer);
+}else{
+	objPlayer.x =  _player_start_x;
+	objPlayer.y = _player_start_y;
+}
 var _direction_change_odds = 1;
 
 // Repeat this _steps number of time (bigger = more tiles)

@@ -16,6 +16,7 @@
     {"id":{"name":"tilAnimations","path":"tilesets/tilAnimations/tilAnimations.yy",},"order":13,},
     {"id":{"name":"objHealthBar","path":"objects/objHealthBar/objHealthBar.yy",},"order":0,},
     {"id":{"name":"enemydamageFont","path":"fonts/enemydamageFont/enemydamageFont.yy",},"order":0,},
+    {"id":{"name":"objSoundPlayer","path":"objects/objSoundPlayer/objSoundPlayer.yy",},"order":5,},
     {"id":{"name":"sPlayerdownidol","path":"sprites/sPlayerdownidol/sPlayerdownidol.yy",},"order":1,},
     {"id":{"name":"create_macros","path":"scripts/create_macros/create_macros.yy",},"order":7,},
     {"id":{"name":"sPlayerupidol","path":"sprites/sPlayerupidol/sPlayerupidol.yy",},"order":7,},
@@ -40,6 +41,7 @@
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"order":0,},
     {"id":{"name":"tilTree","path":"tilesets/tilTree/tilTree.yy",},"order":12,},
     {"id":{"name":"sprWall","path":"sprites/sprWall/sprWall.yy",},"order":1,},
+    {"id":{"name":"sndBackgroundCave","path":"sounds/sndBackgroundCave/sndBackgroundCave.yy",},"order":0,},
     {"id":{"name":"sAbilityGetsugaLeftHB","path":"sprites/sAbilityGetsugaLeftHB/sAbilityGetsugaLeftHB.yy",},"order":5,},
     {"id":{"name":"objGetsugaProj","path":"objects/objGetsugaProj/objGetsugaProj.yy",},"order":1,},
     {"id":{"name":"sWeaponswordright","path":"sprites/sWeaponswordright/sWeaponswordright.yy",},"order":16,},
@@ -153,6 +155,7 @@
     {"folderPath":"folders/Objects/DamageNumbers.yy","order":16,"resourceVersion":"1.0","name":"DamageNumbers","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sounds.yy","order":15,"resourceVersion":"1.0","name":"Sounds","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sounds/Sound Effects.yy","order":1,"resourceVersion":"1.0","name":"Sound Effects","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sounds/Background Sound.yy","order":2,"resourceVersion":"1.0","name":"Background Sound","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
@@ -162,7 +165,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.560",
+    "IDEVersion": "2.3.2.558",
   },
   "resourceVersion": "1.4",
   "name": "TheSeven",

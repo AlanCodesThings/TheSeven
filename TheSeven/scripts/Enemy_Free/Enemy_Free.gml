@@ -7,6 +7,12 @@ function Enemy_Free(){
 xdifference = abs(objPlayer.x - x);
 ydifference = abs(objPlayer.y - y);
 
+if(x - objPlayer.x > 0){
+	image_xscale = -1;	
+}else{
+	image_xscale = 1;
+}
+
 image_speed = enemyImageSpeed;
 //Check if player is in aggro radius 
 if(xdifference <= aggroRadius && ydifference <= aggroRadius){
