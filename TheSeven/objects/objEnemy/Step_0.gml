@@ -7,7 +7,7 @@ switch (enemyState)
 		Enemy_Free();
 		break;
 	case ENEMYSTATE.DEAD:
-		Enemy_Dead();
+		Enemy_Dead(coinOdds,maxCoins);
 		break;	
 }
 

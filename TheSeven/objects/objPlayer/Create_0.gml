@@ -23,7 +23,7 @@ stateAttack = ATTACKSTATE.AUTO;
 abilityState = ABILITYSTATE.GETSUGA;
 hasSwung = false;
 abilitySoundPlayed = false;
-
+global.coinCount = 0;
 
 moveX = 0;
 moveY = 0;
