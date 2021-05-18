@@ -49,5 +49,7 @@ if keyboard_check_pressed(vk_space){
 if keyboard_check_pressed(ord("E")){
 	state = PLAYERSTATE.ABILITY;
 }
-
+if keyboard_check_pressed(ord("Q")){
+	state = PLAYERSTATE.DASH;
+}
 }

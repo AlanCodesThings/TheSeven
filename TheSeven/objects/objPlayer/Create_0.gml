@@ -24,6 +24,7 @@ abilityState = ABILITYSTATE.GETSUGA;
 hasSwung = false;
 abilitySoundPlayed = false;
 global.coinCount = 0;
+dashDistance = 0;
 
 moveX = 0;
 moveY = 0;
@@ -35,7 +36,8 @@ enum PLAYERSTATE
 {
 	FREE, 
 	ATTACK,
-	ABILITY
+	ABILITY,
+	DASH
 }
 
 

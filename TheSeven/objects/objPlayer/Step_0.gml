@@ -99,6 +99,9 @@ switch (state)
 	case PLAYERSTATE.ABILITY:
 		Player_Ability();
 		break;
+	case PLAYERSTATE.DASH:
+		Player_Dash();
+		break;
 		
 	
 	

@@ -12,6 +12,7 @@
     {"id":{"name":"objWeaponswordHB","path":"objects/objWeaponswordHB/objWeaponswordHB.yy",},"order":2,},
     {"id":{"name":"sPlayerright","path":"sprites/sPlayerright/sPlayerright.yy",},"order":4,},
     {"id":{"name":"sWeaponswordleftHB","path":"sprites/sWeaponswordleftHB/sWeaponswordleftHB.yy",},"order":21,},
+    {"id":{"name":"sPlayerrightdash","path":"sprites/sPlayerrightdash/sPlayerrightdash.yy",},"order":1,},
     {"id":{"name":"objEnemyhit","path":"objects/objEnemyhit/objEnemyhit.yy",},"order":0,},
     {"id":{"name":"tilAnimations","path":"tilesets/tilAnimations/tilAnimations.yy",},"order":13,},
     {"id":{"name":"objHealthBar","path":"objects/objHealthBar/objHealthBar.yy",},"order":0,},
@@ -33,7 +34,10 @@
     {"id":{"name":"Enemy_Dead","path":"scripts/Enemy_Dead/Enemy_Dead.yy",},"order":1,},
     {"id":{"name":"sAbilityGetsugaProj","path":"sprites/sAbilityGetsugaProj/sAbilityGetsugaProj.yy",},"order":2,},
     {"id":{"name":"sprWallTiles40","path":"sprites/sprWallTiles40/sprWallTiles40.yy",},"order":4,},
+    {"id":{"name":"sPlayerupdash","path":"sprites/sPlayerupdash/sPlayerupdash.yy",},"order":0,},
+    {"id":{"name":"Player_Dash","path":"scripts/Player_Dash/Player_Dash.yy",},"order":0,},
     {"id":{"name":"sprEnemy","path":"sprites/sprEnemy/sprEnemy.yy",},"order":1,},
+    {"id":{"name":"sPlayerleftdash","path":"sprites/sPlayerleftdash/sPlayerleftdash.yy",},"order":2,},
     {"id":{"name":"sprCataDecor","path":"sprites/sprCataDecor/sprCataDecor.yy",},"order":1,},
     {"id":{"name":"objLevel","path":"objects/objLevel/objLevel.yy",},"order":3,},
     {"id":{"name":"objExit","path":"objects/objExit/objExit.yy",},"order":4,},
@@ -43,6 +47,7 @@
     {"id":{"name":"sprWall","path":"sprites/sprWall/sprWall.yy",},"order":1,},
     {"id":{"name":"sndBackgroundCave","path":"sounds/sndBackgroundCave/sndBackgroundCave.yy",},"order":0,},
     {"id":{"name":"sAbilityGetsugaLeftHB","path":"sprites/sAbilityGetsugaLeftHB/sAbilityGetsugaLeftHB.yy",},"order":5,},
+    {"id":{"name":"Check_Tile_Collision","path":"scripts/Check_Tile_Collision/Check_Tile_Collision.yy",},"order":8,},
     {"id":{"name":"objGetsugaProj","path":"objects/objGetsugaProj/objGetsugaProj.yy",},"order":1,},
     {"id":{"name":"sWeaponswordright","path":"sprites/sWeaponswordright/sWeaponswordright.yy",},"order":16,},
     {"id":{"name":"Animation_End","path":"scripts/Animation_End/Animation_End.yy",},"order":4,},
@@ -83,8 +88,11 @@
     {"id":{"name":"Weapon_Sword","path":"scripts/Weapon_Sword/Weapon_Sword.yy",},"order":0,},
     {"id":{"name":"Weapon_Sword_HB","path":"scripts/Weapon_Sword_HB/Weapon_Sword_HB.yy",},"order":1,},
     {"id":{"name":"sprRiver","path":"sprites/sprRiver/sprRiver.yy",},"order":6,},
+    {"id":{"name":"objCoin","path":"objects/objCoin/objCoin.yy",},"order":0,},
+    {"id":{"name":"sprCoin","path":"sprites/sprCoin/sprCoin.yy",},"order":0,},
     {"id":{"name":"sAbilityGetsugaUp","path":"sprites/sAbilityGetsugaUp/sAbilityGetsugaUp.yy",},"order":8,},
     {"id":{"name":"tilCollision","path":"tilesets/tilCollision/tilCollision.yy",},"order":3,},
+    {"id":{"name":"sPlayerdowndash","path":"sprites/sPlayerdowndash/sPlayerdowndash.yy",},"order":3,},
     {"id":{"name":"sWeaponsworddown","path":"sprites/sWeaponsworddown/sWeaponsworddown.yy",},"order":10,},
     {"id":{"name":"objBloodSplatter","path":"objects/objBloodSplatter/objBloodSplatter.yy",},"order":2,},
     {"id":{"name":"tilCataDecor","path":"tilesets/tilCataDecor/tilCataDecor.yy",},"order":2,},
@@ -158,11 +166,15 @@
     {"folderPath":"folders/Objects/DamageNumbers.yy","order":16,"resourceVersion":"1.0","name":"DamageNumbers","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sounds.yy","order":15,"resourceVersion":"1.0","name":"Sounds","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sounds/Sound Effects.yy","order":1,"resourceVersion":"1.0","name":"Sound Effects","tags":[],"resourceType":"GMFolder",},
-<<<<<<< HEAD
-    {"folderPath":"folders/Sounds/Background Sound.yy","order":2,"resourceVersion":"1.0","name":"Background Sound","tags":[],"resourceType":"GMFolder",},
-=======
     {"folderPath":"folders/Sprites/PlayerDamageNumbers.yy","order":16,"resourceVersion":"1.0","name":"PlayerDamageNumbers","tags":[],"resourceType":"GMFolder",},
->>>>>>> 3775de706dac8d579e46fcfb362fac741fe89827
+    {"folderPath":"folders/Sounds/Background Sound.yy","order":2,"resourceVersion":"1.0","name":"Background Sound","tags":[],"resourceType":"GMFolder",},
+<<<<<<< HEAD
+    {"folderPath":"folders/Objects/Currency.yy","order":17,"resourceVersion":"1.0","name":"Currency","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Currency.yy","order":18,"resourceVersion":"1.0","name":"Currency","tags":[],"resourceType":"GMFolder",},
+=======
+    {"folderPath":"folders/Scripts/Ability/Dash.yy","order":1,"resourceVersion":"1.0","name":"Dash","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/sPlayerDash.yy","order":17,"resourceVersion":"1.0","name":"sPlayerDash","tags":[],"resourceType":"GMFolder",},
+>>>>>>> e710dfe7aa18a448103f474b3ee57b637e17c006
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
@@ -172,7 +184,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.558",
+    "IDEVersion": "2.3.2.560",
   },
   "resourceVersion": "1.4",
   "name": "TheSeven",

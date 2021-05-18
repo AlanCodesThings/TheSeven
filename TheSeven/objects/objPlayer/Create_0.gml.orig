@@ -12,26 +12,35 @@ maxHitpoints = hitpoints;
 hpPercent = 1;
 
 //manapoints and ability cost (ability cost will change absed on ability equipped)
-manaPoints = 80;
-abilityCost = 2;
+maxMana = 80
+manaPoints = maxMana;
+abilityCost = 5;
 
 swordCreated = false;
 abilityCreated = false;
 state = PLAYERSTATE.FREE;
 stateAttack = ATTACKSTATE.AUTO;
 abilityState = ABILITYSTATE.GETSUGA;
+hasSwung = false;
+abilitySoundPlayed = false;
+<<<<<<< HEAD
+global.coinCount = 0;
+=======
+dashDistance = 0;
+>>>>>>> e710dfe7aa18a448103f474b3ee57b637e17c006
 
 moveX = 0;
 moveY = 0;
 
-var tmp_layer = layer_get_id("WallTiles")
-tilemap = layer_tilemap_get_id(tmp_layer);
+
+tilemap = layer_tilemap_get_id("WallTiles");
 
 enum PLAYERSTATE
 {
 	FREE, 
 	ATTACK,
-	ABILITY
+	ABILITY,
+	DASH
 }
 
 
@@ -49,11 +58,7 @@ enum ABILITYSTATE
 //var tmp_layer = layer_get_id(tmp_layer);
 window_x = window_get_width();
 window_y = window_get_height();
-
-<<<<<<< HEAD
 instance_create_layer(window_x/3 - 96 ,window_get_height() - 210,"Instances", objHealthBar)
 instance_create_layer(window_x/1.5 - 96 ,window_get_height() - 210,"Instances", objManaBar)
-=======
->>>>>>> a4e3e865c3a34593a1cfbfa651320c906c7977ac
 instance_create_layer(x,y,"Instances", objCamera);
 instance_create_layer(x,y,"Objects",objWeaponspawner);
