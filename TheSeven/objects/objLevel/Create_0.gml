@@ -8,7 +8,7 @@ randomize();
 var _wall_map_id = layer_tilemap_get_id("WallTiles");
 
 
-
+if(room == Cave){
 //Set up grid
 width_ = room_width div CELL_WIDTH;
 height_ = room_height div CELL_HEIGHT;
@@ -165,3 +165,4 @@ for (var _y = 1; _y < height_ -1; _y++) {
 	}
 }
 
+}

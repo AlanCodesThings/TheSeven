@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+tilemap = layer_tilemap_get_id("WallTiles");
+
 if(!instance_exists(objHealthBar)){
 	instance_create_layer(window_x/3 - 96 ,window_get_height() - 210,"Instances", objHealthBar)
 }

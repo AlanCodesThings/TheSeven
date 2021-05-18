@@ -5,7 +5,7 @@ if(place_meeting(x,y,objPlayer)){
 		
 		if(room == Camp){
 		show_debug_message("check")
-		room_goto_next();	
+		room_goto(Cave)
 		}
 		if(room = Cave){
 		global.level++;

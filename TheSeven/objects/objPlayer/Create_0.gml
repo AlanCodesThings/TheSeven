@@ -28,8 +28,8 @@ abilitySoundPlayed = false;
 moveX = 0;
 moveY = 0;
 
-var tmp_layer = layer_get_id("WallTiles")
-tilemap = layer_tilemap_get_id(tmp_layer);
+
+tilemap = layer_tilemap_get_id("WallTiles");
 
 enum PLAYERSTATE
 {
