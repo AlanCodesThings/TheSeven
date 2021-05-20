@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Dash",
-    "path": "folders/Scripts/Ability/Dash.yy",
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Player_Dash",
+  "name": "Save_Game",
   "tags": [],
   "resourceType": "GMScript",
 }

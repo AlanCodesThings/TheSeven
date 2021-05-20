@@ -127,8 +127,9 @@ hpPercent = hitpoints/maxHitpoints;
 //Get mana % for mana globe
 manaPercent = manaPoints/maxMana;
 
-if(hitpoints <= 0){
-	global.level = 0;
-	room_goto_previous();	
+if(hitpoints <= 0 && room == Cave){
+	objPlayer.level = 0;
+	objPlayer.hitpoints = objPlayer.maxHitpoints
+	room_goto(Camp);	
 }
 

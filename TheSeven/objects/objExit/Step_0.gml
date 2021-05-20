@@ -8,7 +8,7 @@ if(place_meeting(x,y,objPlayer)){
 		room_goto(Cave)
 		}
 		if(room = Cave){
-		global.level++;
+		objPlayer.level++;
 		room_restart();
 		}
 	}
