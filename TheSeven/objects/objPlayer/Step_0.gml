@@ -128,6 +128,7 @@ hpPercent = hitpoints/maxHitpoints;
 manaPercent = manaPoints/maxMana;
 
 if(hitpoints <= 0 && room == Cave){
+	coinCount = 0;
 	objPlayer.level = 0;
 	objPlayer.hitpoints = objPlayer.maxHitpoints
 	room_goto(Camp);	

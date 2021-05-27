@@ -23,7 +23,7 @@ stateAttack = ATTACKSTATE.AUTO;
 abilityState = ABILITYSTATE.GETSUGA;
 hasSwung = false;
 abilitySoundPlayed = false;
-coinCount = 0;
+
 dashDistance = 0;
 
 moveX = 0;
@@ -31,6 +31,8 @@ moveY = 0;
 
 maxLevel = 0;
 level = 0;
+coinCount = 0;
+storedCoins = 0;
 
 tilemap = layer_tilemap_get_id("WallTiles");
 
@@ -57,6 +59,7 @@ enum ABILITYSTATE
 //var tmp_layer = layer_get_id(tmp_layer);
 window_x = window_get_width();
 window_y = window_get_height();
+
 instance_create_layer(window_x/3 - 96 ,window_get_height() - 210,"Instances", objHealthBar)
 instance_create_layer(window_x/1.5 - 96 ,window_get_height() - 210,"Instances", objManaBar)
 instance_create_layer(x,y,"Instances", objCamera);

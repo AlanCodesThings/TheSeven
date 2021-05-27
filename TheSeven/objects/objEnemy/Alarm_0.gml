@@ -15,5 +15,3 @@ if (xdifference <= enemySpacing && ydifference <= enemySpacing){
 				}
 		}
 }
-
-	

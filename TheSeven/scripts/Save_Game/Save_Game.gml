@@ -9,7 +9,7 @@ function Save_Game(){
 			obj : object_index,
 			maxHitpoints : maxHitpoints,
 			maxMana : maxMana,
-			coinCount : coinCount,
+			storedCoins : storedCoins,
 			maxLevel : maxLevel,
 		}
 		array_push(_saveArray, _savePlayer);
