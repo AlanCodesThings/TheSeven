@@ -37,6 +37,7 @@ tilemap = layer_tilemap_get_id("WallTiles");
 enum PLAYERSTATE
 {
 	FREE, 
+	DEAD,
 	ATTACK,
 	ABILITY,
 	DASH

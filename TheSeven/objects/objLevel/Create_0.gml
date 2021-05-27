@@ -51,7 +51,7 @@ for(var i = 0; i <= _steps; i++){
 	
 	//Spawn bat enemy depending on odds
 	if(point_distance(ex,ey,objPlayer.x, objPlayer.y) > 80 && irandom(odds) == odds) {
-		instance_create_layer(ex,ey,"Instances",objBat);	
+		instance_create_layer(ex,ey,"Instances",objSkelarcher);	
 		
 	}
 	

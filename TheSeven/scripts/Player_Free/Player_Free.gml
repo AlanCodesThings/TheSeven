@@ -2,6 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function Player_Free(){
 objPlayer.abilitySoundPlayed = false;
+show_debug_message("in player state free");
 
 if(hInput != 0 || vInput != 0){
 dir = point_direction(0,0,hInput,vInput);
@@ -51,5 +52,8 @@ if keyboard_check_pressed(ord("E")){
 }
 if keyboard_check_pressed(ord("Q")){
 	state = PLAYERSTATE.DASH;
+}
+if(hitpoints <= 0 && room == Cave){
+	state = PLAYERSTATE.DEAD;
 }
 }
