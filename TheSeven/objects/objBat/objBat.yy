@@ -23,7 +23,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [
     {"propertyId":{"name":"enemySpacing","path":"objects/objEnemy/objEnemy.yy",},"objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"value":"40","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
@@ -35,6 +37,7 @@
     {"propertyId":{"name":"hp","path":"objects/objEnemy/objEnemy.yy",},"objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"value":"8","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"coinOdds","path":"objects/objEnemy/objEnemy.yy",},"objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"value":"1","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
     {"propertyId":{"name":"maxCoins","path":"objects/objEnemy/objEnemy.yy",},"objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"value":"3","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"deadSprite","path":"objects/objEnemy/objEnemy.yy",},"objectId":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"value":"sprBatDead","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "Enemys",

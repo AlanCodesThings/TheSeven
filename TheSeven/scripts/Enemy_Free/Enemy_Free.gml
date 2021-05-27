@@ -2,7 +2,11 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function Enemy_Free(){
 /// @description Move to Player and Collide with other Enemies
+if (hp <= 0)
+{
+	enemyState = ENEMYSTATE.DEAD;
 
+}
 //Store difference between player and enemy
 xdifference = abs(objPlayer.x - x);
 ydifference = abs(objPlayer.y - y);
@@ -15,6 +19,7 @@ if(x - objPlayer.x > 0){
 
 image_speed = enemyImageSpeed;
 //Check if player is in aggro radius 
+if (hp > 0){
 if(xdifference <= aggroRadius && ydifference <= aggroRadius){
 	//Move toward the player using pathfinding
 	myPath = path_add();
@@ -35,16 +40,16 @@ if(xdifference <= aggroRadius && ydifference <= aggroRadius){
 			path_end();	
 		}
 	}
-	
+}
 
 	//Stop the enemy when it is in autoattacking distance
 	if (xdifference <= enemySpacing && ydifference <= enemySpacing){
 		path_end();
 		
 		//Change to attack sprite and loop through alarm to autoattack
-		sprite_index = attackSprite;
+		
 		if(alarm[0] == -1){
-		objPlayer.hitpoints	-= damage;
+		sprite_index = attackSprite;
 		alarm[0] = (room_speed * 1);
 		}
 	}else{
@@ -53,8 +58,5 @@ if(xdifference <= aggroRadius && ydifference <= aggroRadius){
 	}
 	
 }
-if (hp <= 0)
-{
-	enemyState = ENEMYSTATE.DEAD;
-}
+
 }

@@ -93,6 +93,9 @@ switch (state)
 	case PLAYERSTATE.FREE:
 		Player_Free();
 		break;
+	case PLAYERSTATE.DEAD:
+		Player_Dead();
+		break;
 	case PLAYERSTATE.ATTACK:
 		Weapon_Sword();
 		break;
@@ -127,10 +130,6 @@ hpPercent = hitpoints/maxHitpoints;
 //Get mana % for mana globe
 manaPercent = manaPoints/maxMana;
 
-if(hitpoints <= 0 && room == Cave){
+
 	coinCount = 0;
-	objPlayer.level = 0;
-	objPlayer.hitpoints = objPlayer.maxHitpoints
-	room_goto(Camp);	
-}
 
