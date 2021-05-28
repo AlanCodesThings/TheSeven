@@ -5,7 +5,11 @@
     {"id":{"name":"Load_Game","path":"scripts/Load_Game/Load_Game.yy",},"order":10,},
     {"id":{"name":"sAbilityGetsugaRight","path":"sprites/sAbilityGetsugaRight/sAbilityGetsugaRight.yy",},"order":6,},
     {"id":{"name":"sprBatAttack","path":"sprites/sprBatAttack/sprBatAttack.yy",},"order":1,},
+<<<<<<< HEAD
+    {"id":{"name":"sprSkelarcherbow","path":"sprites/sprSkelarcherbow/sprSkelarcherbow.yy",},"order":7,},
+=======
     {"id":{"name":"sprEscapeBlank","path":"sprites/sprEscapeBlank/sprEscapeBlank.yy",},"order":1,},
+>>>>>>> 9ac30b8fc6580d2a7228669e74cd0038539c2ec4
     {"id":{"name":"Player_Ability","path":"scripts/Player_Ability/Player_Ability.yy",},"order":0,},
     {"id":{"name":"sprCatacombs","path":"sprites/sprCatacombs/sprCatacombs.yy",},"order":0,},
     {"id":{"name":"sprSkelarcherupHold","path":"sprites/sprSkelarcherupHold/sprSkelarcherupHold.yy",},"order":1,},
@@ -35,11 +39,8 @@
     {"id":{"name":"sWeaponswordleft","path":"sprites/sWeaponswordleft/sWeaponswordleft.yy",},"order":15,},
     {"id":{"name":"objWall","path":"objects/objWall/objWall.yy",},"order":0,},
     {"id":{"name":"sprExit","path":"sprites/sprExit/sprExit.yy",},"order":5,},
-<<<<<<< HEAD
     {"id":{"name":"sprExitCont","path":"sprites/sprExitCont/sprExitCont.yy",},"order":4,},
-=======
     {"id":{"name":"sprSkelarcherProj","path":"sprites/sprSkelarcherProj/sprSkelarcherProj.yy",},"order":5,},
->>>>>>> cf638e6fe6bc85c5542fe5d5c2efdbb4569f4301
     {"id":{"name":"Cave","path":"rooms/Cave/Cave.yy",},"order":2,},
     {"id":{"name":"objGetsuga","path":"objects/objGetsuga/objGetsuga.yy",},"order":0,},
     {"id":{"name":"Enemy_Dead","path":"scripts/Enemy_Dead/Enemy_Dead.yy",},"order":1,},
@@ -65,6 +66,7 @@
     {"id":{"name":"sWeaponswordright","path":"sprites/sWeaponswordright/sWeaponswordright.yy",},"order":16,},
     {"id":{"name":"Animation_End","path":"scripts/Animation_End/Animation_End.yy",},"order":4,},
     {"id":{"name":"Player_Free","path":"scripts/Player_Free/Player_Free.yy",},"order":0,},
+    {"id":{"name":"objSkelarcherBow","path":"objects/objSkelarcherBow/objSkelarcherBow.yy",},"order":2,},
     {"id":{"name":"sndGetsuga","path":"sounds/sndGetsuga/sndGetsuga.yy",},"order":2,},
     {"id":{"name":"Enemy_Free","path":"scripts/Enemy_Free/Enemy_Free.yy",},"order":0,},
     {"id":{"name":"Weapon_Sword_Hit","path":"scripts/Weapon_Sword_Hit/Weapon_Sword_Hit.yy",},"order":2,},
@@ -95,12 +97,9 @@
     {"id":{"name":"sprEscapeMenuLoad","path":"sprites/sprEscapeMenuLoad/sprEscapeMenuLoad.yy",},"order":4,},
     {"id":{"name":"sPlayerleft","path":"sprites/sPlayerleft/sPlayerleft.yy",},"order":2,},
     {"id":{"name":"sAbilityGetsugaRightHB","path":"sprites/sAbilityGetsugaRightHB/sAbilityGetsugaRightHB.yy",},"order":7,},
-<<<<<<< HEAD
     {"id":{"name":"sprEscapeMenu","path":"sprites/sprEscapeMenu/sprEscapeMenu.yy",},"order":0,},
-    {"id":{"name":"sprExitNotif","path":"sprites/sprExitNotif/sprExitNotif.yy",},"order":0,},
-=======
     {"id":{"name":"sprSkelarcherleftDead","path":"sprites/sprSkelarcherleftDead/sprSkelarcherleftDead.yy",},"order":6,},
->>>>>>> cf638e6fe6bc85c5542fe5d5c2efdbb4569f4301
+    {"id":{"name":"sprExitNotif","path":"sprites/sprExitNotif/sprExitNotif.yy",},"order":0,},
     {"id":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},"order":0,},
     {"id":{"name":"sprCamp2","path":"sprites/sprCamp2/sprCamp2.yy",},"order":4,},
     {"id":{"name":"sprExitTown","path":"sprites/sprExitTown/sprExitTown.yy",},"order":2,},
@@ -204,12 +203,9 @@
     {"folderPath":"folders/Scripts/Ability/Dash.yy","order":1,"resourceVersion":"1.0","name":"Dash","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/sPlayerDash.yy","order":17,"resourceVersion":"1.0","name":"sPlayerDash","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Enemies/Skeleton Archer.yy","order":2,"resourceVersion":"1.0","name":"Skeleton Archer","tags":[],"resourceType":"GMFolder",},
-<<<<<<< HEAD
     {"folderPath":"folders/Sprites/UI/EscapeMenu.yy","order":6,"resourceVersion":"1.0","name":"EscapeMenu","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sprites/UI/ExitNotification.yy","order":8,"resourceVersion":"1.0","name":"ExitNotification","tags":[],"resourceType":"GMFolder",},
-=======
     {"folderPath":"folders/Objects/Enemys/SkeletonArcher.yy","order":3,"resourceVersion":"1.0","name":"SkeletonArcher","tags":[],"resourceType":"GMFolder",},
->>>>>>> cf638e6fe6bc85c5542fe5d5c2efdbb4569f4301
+    {"folderPath":"folders/Sprites/UI/ExitNotification.yy","order":8,"resourceVersion":"1.0","name":"ExitNotification","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

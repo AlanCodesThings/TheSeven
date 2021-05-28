@@ -10,7 +10,7 @@
   "bbox_left": 18,
   "bbox_right": 42,
   "bbox_top": 19,
-  "bbox_bottom": 45,
+  "bbox_bottom": 50,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -76,7 +76,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"cc76c7dd-7f42-49e4-8770-50c070159fe8","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"cc76c7dd-7f42-49e4-8770-50c070159fe8","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1110d949-0df3-4e86-becd-83c9f3515644","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,

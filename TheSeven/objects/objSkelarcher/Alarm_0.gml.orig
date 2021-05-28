@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+/// @description Create arrows
+instance_create_layer(x,y+2,"Instances",objSkelarcherProj);
+=======
+/// @description Insert description here
+// You can write your code in this editor
+
+
+//sprite_index = sprSkelarcherleftdownAttack;
+  // if (image_index ==2){
+	instance_create_layer(x,y+2,"Instances",objSkelarcherProj);
+  // }
+>>>>>>> 3bd86900f531e7409f2323c1c8f0fc80c8f8b7d6
