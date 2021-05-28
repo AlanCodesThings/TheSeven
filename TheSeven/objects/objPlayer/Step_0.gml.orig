@@ -93,11 +93,17 @@ switch (state)
 	case PLAYERSTATE.FREE:
 		Player_Free();
 		break;
+	case PLAYERSTATE.DEAD:
+		Player_Dead();
+		break;
 	case PLAYERSTATE.ATTACK:
 		Weapon_Sword();
 		break;
 	case PLAYERSTATE.ABILITY:
 		Player_Ability();
+		break;
+	case PLAYERSTATE.DASH:
+		Player_Dash();
 		break;
 		
 	
@@ -121,11 +127,17 @@ if(manaPoints <= 0){
 
 //Get hp % for health globe
 hpPercent = hitpoints/maxHitpoints;
-<<<<<<< HEAD
+//Get mana % for mana globe
+manaPercent = manaPoints/maxMana;
 
-if(hitpoints <= 0){
-	global.level = 0;
-	room_goto_previous();	
+<<<<<<< HEAD
+if(hitpoints <= 0 && room == Cave){
+	coinCount = 0;
+	objPlayer.level = 0;
+	objPlayer.hitpoints = objPlayer.maxHitpoints
+	room_goto(Camp);	
 }
 =======
->>>>>>> a4e3e865c3a34593a1cfbfa651320c906c7977ac
+
+>>>>>>> cf638e6fe6bc85c5542fe5d5c2efdbb4569f4301
+

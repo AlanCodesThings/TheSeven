@@ -131,4 +131,5 @@ hpPercent = hitpoints/maxHitpoints;
 manaPercent = manaPoints/maxMana;
 
 
+	coinCount = 0;
 
