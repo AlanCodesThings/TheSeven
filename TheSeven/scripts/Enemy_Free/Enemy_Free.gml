@@ -7,6 +7,7 @@ if (hp <= 0)
 	enemyState = ENEMYSTATE.DEAD;
 
 }
+
 //Store difference between player and enemy
 xdifference = abs(objPlayer.x - x);
 ydifference = abs(objPlayer.y - y);
