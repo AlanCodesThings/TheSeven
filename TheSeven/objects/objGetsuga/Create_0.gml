@@ -1,5 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Set getsuga hitbox
+
+//change hitbox depending on getsuga sprite
 switch (objPlayer.sprite_index)
 {
 	case sAbilityGetsugaDown:

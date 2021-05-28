@@ -1,12 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
-//switch (objPlayer.sprite_index){
-//	case sPlayerdown || sPlayerdownidol:
-//		sprite_index =  sWeaponsworddownHB;
-//		break;
-//}
+/// @description Run script
 
-//if(doOnce == false){
-	//doOnce = true;
+//Run attack script with created list as argument
 Weapon_Sword_HB(hitByAttack);
-//}

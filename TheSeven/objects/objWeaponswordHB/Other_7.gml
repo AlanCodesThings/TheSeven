@@ -1,6 +1,7 @@
-/// @description Insert description here
-// You can write your code in this editor
+//Clean up this instance
 instance_destroy();
+
+//Switch the players sprite back to idol depending on weapon swing sprite
 switch (sprite_index)
 {
 	case sWeaponsworddownHB:
@@ -16,8 +17,13 @@ switch (sprite_index)
 		objPlayer.sprite_index = sPlayerrightidol;
 		break;		
 }
-if (instance_exists(objEnemy)){
-objEnemy.invulAuto = false;}
 
+//Set enemy invulnerabilty back to false and state back to free
+if (instance_exists(objEnemy))
+{
+objEnemy.invulAuto = false;
+}
 objPlayer.state = PLAYERSTATE.FREE;
+
+//Set to false to allow another swing to be created
 objPlayer.swordCreated = false;

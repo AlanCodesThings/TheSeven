@@ -1,5 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Move getsuga, call dmg script
+
+//Move getsuga and change sprite angle depending on direction
 if (dirCheck == "up"){
 	image_yscale = -1;
 	y = y - vsp;
@@ -15,6 +16,8 @@ if (dirCheck == "right"){
 	image_angle = 90;
 	x = x + vsp;
 	}
+	
+//check distance travelled and destroy it after a set amount
 disTrav += 1;
 if (disTrav > 20){
 	instance_destroy();	

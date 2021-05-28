@@ -1,6 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Initailise sprite and checks
 
+//Switch weapon swing sprite based on player sprite
 switch (objPlayer.sprite_index)
 {
 	case sWeaponsworddown:
@@ -17,7 +17,7 @@ switch (objPlayer.sprite_index)
 		break;		
 }
 
-
+//Checks
 hitByAttack = ds_list_create();
 hasHit = false;
 doOnce = false

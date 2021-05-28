@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Initialise getsuga values
 vsp = 4;
 dirCheck = undefined; 
 disTrav = 0;

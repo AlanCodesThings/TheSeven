@@ -1,7 +1,6 @@
-randomize();
+/// @description Create the grid
 
-//Create sound player
-//instance_create_layer(0,0,"Instances",objSoundPlayer);
+randomize();
 
 //Get tile layer map id
 

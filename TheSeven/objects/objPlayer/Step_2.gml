@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Move the camera 
 
 #region MOVE THE VIEW
 fullViewWidth =  camera_get_view_width(view_camera[0])

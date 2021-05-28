@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Draw onto gui
+//See objHealthBar for details
 draw_self();
 var _h = objPlayer.manaPercent * sprite_height;
 var _yOffset = sprite_height - _h;

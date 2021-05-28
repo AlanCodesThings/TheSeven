@@ -1,14 +1,10 @@
-/// @description Insert description here
-// You can write your code in this editor
-
+///@description Inherit parent/face player
 // Inherit the parent event
 event_inherited();
 
+//Turn the archer around to face the player
 if(x - objPlayer.x > 0){
 	image_xscale = 1;	
 }else{
 	image_xscale = -1;
-}
-if (sprite_index == sprSkelarcherleftDead){
-	
 }

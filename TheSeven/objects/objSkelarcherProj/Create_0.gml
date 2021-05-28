@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Initialise arrow properties
 arrowAngle = point_direction(x,y,objPlayer.x, objPlayer.y);
 image_angle = point_direction(x,y,objPlayer.x, objPlayer.y);
 speed = 2;

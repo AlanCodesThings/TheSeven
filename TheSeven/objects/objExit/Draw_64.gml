@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Draw exit notif & buttons
 var scrnWidth = display_get_width()/2;
 var scrnHeight = display_get_height()/2;
 

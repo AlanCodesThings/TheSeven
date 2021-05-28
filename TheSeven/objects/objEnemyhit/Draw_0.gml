@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Draw damage numbers
 switch (enemyhitBy)
 {
 	case "auto":

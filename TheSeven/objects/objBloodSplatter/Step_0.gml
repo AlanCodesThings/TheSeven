@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Choose a blood sprite
 switch (bloodPicker)
 {
 	case 1:

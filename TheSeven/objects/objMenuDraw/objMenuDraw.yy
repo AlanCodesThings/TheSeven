@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "UI",
-    "path": "folders/Objects/UI.yy",
+    "name": "Menu",
+    "path": "folders/Objects/UI/Menu.yy",
   },
   "resourceVersion": "1.0",
   "name": "objMenuDraw",

@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Reset player values-camp
 if(room == Camp){
 	if(instance_exists(objPlayer)){
 		objPlayer.coinCount = 0;

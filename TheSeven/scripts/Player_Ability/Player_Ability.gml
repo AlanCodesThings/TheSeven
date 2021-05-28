@@ -1,15 +1,17 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function Player_Ability(){
-
+	//change player state
 	stateAttack = ATTACKSTATE.ABILITY;
-	
+	//Ability state refers to the current ability being used... allows for multiple abilities
 	if (abilityState == ABILITYSTATE.GETSUGA){
+		//check mana cost and play sound
 		if (manaPoints >= abilityCost){ 
 			if(objPlayer.abilitySoundPlayed == false){
 				audio_play_sound(sndGetsuga,10,false);
 				objPlayer.abilitySoundPlayed = true;
 			}
+			//change sprite depending on current direction
 		switch (sprite_index){
 			case  sPlayerdown:
 				sprite_index = sAbilityGetsugaDown;
@@ -44,7 +46,7 @@ function Player_Ability(){
 				image_index = 0;
 				break;
 				}
-
+			//if a ability isnt currently created, then create the getsuga and reduce the mana cost
 			if (objPlayer.abilityCreated = false){
 				objPlayer.abilityCreated = true;
 				instance_create_layer(x,y,"Objects", objGetsuga);

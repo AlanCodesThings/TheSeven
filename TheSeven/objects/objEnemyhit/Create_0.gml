@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Initialise variables, set timer
 alarm[0] = 50;
 size = 1;
 enemyhitBy = "auto"; 

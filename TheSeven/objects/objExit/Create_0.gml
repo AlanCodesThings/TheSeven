@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this edit
+/// @description Initialise hover checks
 exitNotif = false;
 hoverExitTown = false;
 hoverContinue = false;

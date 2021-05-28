@@ -2,7 +2,6 @@
 // You can write your code in this editor
 
 //Set walking speed and collision detection
-
 speedWalk = 1.5;
 checkWalk = speedWalk + 2;
 
@@ -11,31 +10,42 @@ hitpoints = 50;
 maxHitpoints = hitpoints;
 hpPercent = 1;
 
-//manapoints and ability cost (ability cost will change absed on ability equipped)
+//manapoints and ability cost (ability cost will change based on ability equipped)
 maxMana = 80
 manaPoints = maxMana;
 abilityCost = 5;
 
+//Weapon/ability checks
 swordCreated = false;
 abilityCreated = false;
+
+//Initialise states
 state = PLAYERSTATE.FREE;
 stateAttack = ATTACKSTATE.AUTO;
 abilityState = ABILITYSTATE.GETSUGA;
+
+//Sound Checks
 hasSwung = false;
 abilitySoundPlayed = false;
 
+//Initialise movement values
 dashDistance = 0;
-
 moveX = 0;
 moveY = 0;
 
+//Initialise progression values
 maxLevel = 0;
 level = 0;
 coinCount = 0;
 storedCoins = 0;
 
+//Initialise player dead check
+global.playerDead = false;
+
+//Initialise tilemap being used for collisions
 tilemap = layer_tilemap_get_id("WallTiles");
 
+//Setup states
 enum PLAYERSTATE
 {
 	FREE, 
@@ -44,7 +54,6 @@ enum PLAYERSTATE
 	ABILITY,
 	DASH
 }
-
 
 enum ATTACKSTATE
 {
@@ -56,12 +65,7 @@ enum ABILITYSTATE
 	GETSUGA
 }
 
+//Initialise ui elements
+instance_create_layer(window_get_width()/3 - 96 ,window_get_height() - 210,"Instances", objHealthBar)
+instance_create_layer(window_get_width()/1.5 - 96 ,window_get_height() - 210,"Instances", objManaBar)
 
-//var tmp_layer = layer_get_id(tmp_layer);
-window_x = window_get_width();
-window_y = window_get_height();
-
-instance_create_layer(window_x/3 - 96 ,window_get_height() - 210,"Instances", objHealthBar)
-instance_create_layer(window_x/1.5 - 96 ,window_get_height() - 210,"Instances", objManaBar)
-instance_create_layer(x,y,"Instances", objCamera);
-instance_create_layer(x,y,"Objects",objWeaponspawner);

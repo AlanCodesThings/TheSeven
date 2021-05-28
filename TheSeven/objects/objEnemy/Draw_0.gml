@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Draw flash when hit
 draw_self();
 
 if (flash > 0)

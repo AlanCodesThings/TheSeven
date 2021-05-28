@@ -1,6 +1,9 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Load game/create player
+
+
 display_set_gui_maximise(1,1);
+
+//Load from save file if one exists, if not, create a new player
 if(room == Camp){
 	if(file_exists("savedgame.save")){	
 	Load_Game();	

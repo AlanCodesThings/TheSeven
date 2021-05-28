@@ -1,23 +1,26 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Exit room checks
+
+//If player is on exit and presses enter
 if(place_meeting(x,y,objPlayer)){
 	if(keyboard_check_pressed(vk_enter)){
-		
+		//if at camp - send to cave
 		if(room == Camp){
-		show_debug_message("check")
 		room_goto(Cave)
 		}
+		//if at cave, send to next level unless next level is a multiple of 5 
 		if(room = Cave){
 			if((objPlayer.level + 1) mod 5 != 0){
 				objPlayer.level++;
 				room_restart();
 			}else{
+				//If nxt lvl is multiple of 5, toggle exit notification check
 				exitNotif = true;
 			}
 		}
 	}
 }
 
+//Hover checking - works same as objMenuDraw
 var mouseX = device_mouse_x_to_gui(0);
 var mouseY = device_mouse_y_to_gui(0);
 if(exitNotif)
