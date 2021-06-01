@@ -14,4 +14,4 @@ bow = instance_create_layer(x,y, "Objects", objSkelarcherBow);
 bowCreated = true;
 with (bow){
 	owner = other.id;
-}
+}}

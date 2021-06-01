@@ -4918,8 +4918,8 @@
     ],
   },
   "parent": {
-    "name": "Tile Sets",
-    "path": "folders/Tile Sets.yy",
+    "name": "Catacombs",
+    "path": "folders/Tile Sets/Catacombs.yy",
   },
   "resourceVersion": "1.0",
   "name": "tilCatacombs",

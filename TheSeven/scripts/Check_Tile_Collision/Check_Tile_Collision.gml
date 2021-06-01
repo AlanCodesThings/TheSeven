@@ -1,5 +1,3 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function Check_Tile_Collision(){
 	//Check for collision with the tilemap
 	//argument 0 is the current x location, arg1 is the y loc,
@@ -19,5 +17,6 @@ function Check_Tile_Collision(){
 		moveY = 0;
 	}
 	
+	//move X and Y = either the distance that was originally being moved or 0 if this distance causes a collision
 	return [moveX, moveY];
 }

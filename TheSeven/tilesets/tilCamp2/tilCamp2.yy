@@ -168,8 +168,8 @@
     "TileSerialiseData": [],
   },
   "parent": {
-    "name": "Tile Sets",
-    "path": "folders/Tile Sets.yy",
+    "name": "Camp",
+    "path": "folders/Tile Sets/Camp.yy",
   },
   "resourceVersion": "1.0",
   "name": "tilCamp2",

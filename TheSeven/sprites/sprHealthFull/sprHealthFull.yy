@@ -93,8 +93,8 @@
     "resourceType": "GMNineSliceData",
   },
   "parent": {
-    "name": "UI",
-    "path": "folders/Sprites/UI.yy",
+    "name": "PlayerResources",
+    "path": "folders/Sprites/UI/PlayerResources.yy",
   },
   "resourceVersion": "1.0",
   "name": "sprHealthFull",
