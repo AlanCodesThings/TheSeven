@@ -61,4 +61,7 @@ if keyboard_check_pressed(ord("Q")){
 if(hitpoints <= 0 && room == Cave){
 	state = PLAYERSTATE.DEAD;
 }
+
 }
+
+

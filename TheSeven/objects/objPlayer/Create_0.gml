@@ -6,7 +6,7 @@ speedWalk = 1.5;
 checkWalk = speedWalk + 2;
 
 //hitpoints
-hitpoints = 50;
+hitpoints = 1000;
 maxHitpoints = hitpoints;
 hpPercent = 1;
 
@@ -37,7 +37,18 @@ moveY = 0;
 maxLevel = 0;
 level = 0;
 coinCount = 0;
-storedCoins = 0;
+storedCoins = 200;
+
+//inventory list
+global.playerInventory = ds_list_create();
+healthPots = 0;
+
+enum item{
+	Hpot,
+	Mpot
+	}
+itemSprite[item.Hpot] = spr_Hpot;
+itemSprite[item.Mpot] = spr_Mpot;
 
 //Initialise player dead check
 global.playerDead = false;
