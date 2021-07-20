@@ -3,6 +3,11 @@ function Enemy_Dead(){
 	flash = 0;
 	sprite_index = deadSprite;
 	
+	if(!expDropped){
+		objPlayer.experience += experience
+		expDropped = true;
+	}
+	
 	//if on later/last frame
 	if (floor(image_index) == 7)
 	{

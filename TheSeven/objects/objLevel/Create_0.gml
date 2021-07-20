@@ -6,6 +6,27 @@ randomize();
 
 var _wall_map_id = layer_tilemap_get_id("WallTiles");
 
+if(room == BossOne){
+	width_ = room_width div 128;
+	height_ = room_height div 128;
+	globalvar movementGrid;
+	movementGrid = mp_grid_create(0,0,width_,height_, 128, 128);
+	
+	tilemap = layer_tilemap_get_id("WallTiles");
+
+	//Loop through tile map to access individual cells
+	for(var xx = 0; xx<tilemap_get_width(tilemap); xx++){
+		for(var yy = 0; yy<tilemap_get_height(tilemap); yy++){
+			var data = tilemap_get(tilemap, xx, yy)
+			//If cell has a tile in it then add it to the movement grid as an obstacle
+			if (data != 0){
+				mp_grid_add_cell(movementGrid,xx,yy);
+			}
+		}
+	}
+	mp_grid_add_instances(movementGrid,objWall,false);
+}
+
 
 if(room == Cave){
 //Set up grid
@@ -35,7 +56,7 @@ var _player_start_y = _controller_y * CELL_HEIGHT + CELL_HEIGHT/2;
 if(!instance_exists(objPlayer)){
 	instance_create_layer(_player_start_x,_player_start_y, "Instances", objPlayer);
 }else{
-	objPlayer.x =  _player_start_x;
+	objPlayer.x = _player_start_x;
 	objPlayer.y = _player_start_y;
 }
 var _direction_change_odds = 1;
@@ -50,7 +71,7 @@ for(var i = 0; i <= _steps; i++){
 	
 	//Spawn bat enemy depending on odds
 	if(point_distance(ex,ey,objPlayer.x, objPlayer.y) > 80 && irandom(odds) == odds) {
-		instance_create_layer(ex,ey,"Instances",objSkelarcher);	
+		instance_create_layer(ex,ey,"Instances",objBat);	
 		
 	}
 	

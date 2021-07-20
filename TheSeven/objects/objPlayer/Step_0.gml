@@ -87,11 +87,19 @@ if(hitpoints > maxHitpoints){
 if(manaPoints <= 0){
 	manaPoints = 0;	
 }
+//level the player up
+if(experience >= expToNextLevel){
+	level++;
+	var leftover = experience - expToNextLevel;
+	experience = 0 + leftover;
+	expToNextLevel += 10;
+}
 
 
 //Get hp % for health globe
 hpPercent = hitpoints/maxHitpoints;
 //Get mana % for mana globe
 manaPercent = manaPoints/maxMana;
-
+//Get expereince % for exp bar
+expPercent = experience/expToNextLevel;
 

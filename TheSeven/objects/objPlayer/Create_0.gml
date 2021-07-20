@@ -15,6 +15,12 @@ maxMana = 80
 manaPoints = maxMana;
 abilityCost = 5;
 
+//experience and level
+experience = 0;
+expToNextLevel = 17;
+expPercent = experience/expToNextLevel;
+level = 1;
+
 //Weapon/ability checks
 swordCreated = false;
 abilityCreated = false;
@@ -68,4 +74,5 @@ enum ABILITYSTATE
 //Initialise ui elements
 instance_create_layer(window_get_width()/3 - 96 ,window_get_height() - 210,"Instances", objHealthBar)
 instance_create_layer(window_get_width()/1.5 - 96 ,window_get_height() - 210,"Instances", objManaBar)
+instance_create_layer(window_get_width()/2 - 250 ,window_get_height() -35,"Instances", objExpBar)
 

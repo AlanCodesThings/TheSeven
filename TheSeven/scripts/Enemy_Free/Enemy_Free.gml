@@ -11,10 +11,19 @@ xdifference = abs(objPlayer.x - x);
 ydifference = abs(objPlayer.y - y);
 
 //Flip enemy to face player
+
 if(x - objPlayer.x > 0){
+	if(flip){
 	image_xscale = -1;	
+	}else{
+	image_xscale = 1;	
+	}
 }else{
+	if(flip){
 	image_xscale = 1;
+	}else{
+	image_xscale = -1;	
+	}
 }
 
 //Change the animation speed of enemy
@@ -24,17 +33,31 @@ image_speed = enemyImageSpeed;
 if (hp > 0){
 	if(xdifference <= aggroRadius && ydifference <= aggroRadius)
 	{
+		
 		//Move toward the player using pathfinding
 		myPath = path_add();
 		if(instance_exists(objPlayer))
 		{
-			var xx = (objPlayer.x div CELL_WIDTH) * CELL_WIDTH + CELL_WIDTH/2;
-			var yy = (objPlayer.y div CELL_HEIGHT) * CELL_HEIGHT + CELL_HEIGHT/2;
-	
-			if(mp_grid_path(movementGrid, myPath, x, y, xx, yy,false))
+			if(room == Cave){
+				var xx = (objPlayer.x div CELL_WIDTH) * CELL_WIDTH + CELL_WIDTH/2;
+				var yy = (objPlayer.y div CELL_HEIGHT) * CELL_HEIGHT + CELL_HEIGHT/2;
+				if(mp_grid_path(movementGrid, myPath, x, y, xx, yy,false))
 				{
-				path_start(myPath, 1, path_action_stop, true);
+					path_start(myPath, 1, path_action_stop, true);
 				}
+			}
+			if(room == BossOne)
+			{
+				var xx = (objPlayer.x div 16) * 16 + 16/2;
+				var yy = (objPlayer.y div 16) * 16 + 16/2;
+				if(mp_grid_path(movementGrid, myPath, x, y, xx, yy,true))
+				{
+					if(alarm[1] == -1)
+					{
+						alarm[1] = room_speed * 1;
+					}
+				}
+			}
 		}
 		//Collision detection between other enemies
 		var enemyID = instance_place(x,y,objEnemy);
@@ -49,23 +72,38 @@ if (hp > 0){
 	}
 
 	//Stop the enemy when it is in autoattacking distance
-	if (xdifference <= enemySpacing && ydifference <= enemySpacing)
+	
+	if (object_index != objBoss)
 	{
-		path_end();
+		if(xdifference <= enemySpacing && ydifference <= enemySpacing){
+			path_end();
 		
-		//Change to attack sprite and loop through alarm to autoattack
-		
-		if(alarm[0] == -1)
+			//Change to attack sprite and loop through alarm to autoattac
+			if(alarm[0] == -1)
+			{
+				sprite_index = attackSprite;
+				alarm[0] = (room_speed * 1);
+			}
+		}
+		else
 		{
-		sprite_index = attackSprite;
-		alarm[0] = (room_speed * 1);
+			sprite_index = enemySprite
 		}
 	}
-	else
-	{
-		//if not in auto attacking distance player change back to normal sprite
-		sprite_index = enemySprite
-	}
+	
+//-------------------------------------BOSS ONE------------------------------------------------	
+	if(object_index = objBoss){
+		if(alarm[2] == -1){
+			alarm[2] = room_speed * 3;
+		}
+		if(currentAbility == "Slash" && abilityUsed == false)
+		{
+			BossOneSlash();	
+		}else if(path_index == -1){
+			//show_debug_message("no path");
+			//sprite_index = sprBossOneWalk;
+		}
+	}	
 	
 }
 

@@ -5,3 +5,4 @@ if(room == Cave){
 	draw_text(150,50, objPlayer.coinCount);
 	draw_text(200,50, objPlayer.storedCoins);
 }	
+

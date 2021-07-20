@@ -5,6 +5,7 @@ function Weapon_Sword_HB(){
 	
 	ds_list_clear(hitByAttack);
 	var hitByAttackNow = ds_list_create();
+	
 	var hits = instance_place_list(x,y,objEnemy, hitByAttackNow, false);
 	
 	//show_debug_message(ds_list_size(hitByAttackNow));

@@ -59,8 +59,9 @@ function Weapon_Sword_Hit(){
 				invulGetsuga = true;}
 				}	
 				break;
-		
 	}
+
+	
 }
 return -1;
 	
